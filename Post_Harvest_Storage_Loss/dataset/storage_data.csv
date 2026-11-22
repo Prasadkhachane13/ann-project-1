@@ -1,0 +1,721 @@
+sample_id,crop_type,storage_duration_days,average_temperature_c,average_relative_humidity_pct,initial_moisture_content_pct,storage_method,pest_level,ventilation,initial_net_weight_kg,final_net_weight_kg,weight_loss_pct,data_origin
+S0001,Wheat,141,25.09,77.93,14.97,Hermetic bag,High,Good,39.251,38.005,3.176,synthetic_demo
+S0002,Pulses,29,25.36,53.54,17.27,Metal silo,Medium,Moderate,24.954,24.554,1.6024,synthetic_demo
+S0003,Wheat,103,16.47,76.38,14.32,Hermetic bag,Low,Poor,48.681,47.699,2.018,synthetic_demo
+S0004,Groundnuts,142,19.48,58.34,8.44,Warehouse,Low,Good,38.514,37.81,1.8294,synthetic_demo
+S0005,Maize,63,23.52,58.48,9.89,Ordinary bag,Low,Good,15.211,14.914,1.9543,synthetic_demo
+S0006,Soybean,83,34.15,70.01,11.12,Metal silo,Medium,Poor,22.437,21.736,3.1237,synthetic_demo
+S0007,Rice,125,18.21,45.0,8.07,Metal silo,Low,Poor,36.732,36.076,1.7857,synthetic_demo
+S0008,Pulses,86,28.08,41.99,9.15,Ordinary bag,Low,Poor,30.436,29.716,2.363,synthetic_demo
+S0009,Pulses,117,27.73,62.96,11.04,Warehouse,Low,Good,14.656,14.39,1.8156,synthetic_demo
+S0010,Soybean,155,20.38,37.92,10.81,Metal silo,Low,Good,30.066,29.589,1.5866,synthetic_demo
+S0011,Soybean,122,24.35,75.7,9.67,Ordinary bag,None,Good,37.506,36.654,2.2728,synthetic_demo
+S0012,Groundnuts,35,26.52,42.62,14.96,Ordinary bag,Low,Moderate,18.568,18.175,2.1157,synthetic_demo
+S0013,Pulses,69,17.02,40.9,17.62,Ordinary bag,Low,Poor,16.964,16.387,3.4,synthetic_demo
+S0014,Rice,142,31.49,57.47,10.72,Hermetic bag,High,Good,25.51,24.952,2.1859,synthetic_demo
+S0015,Groundnuts,60,28.32,43.84,16.57,Hermetic bag,Medium,Poor,24.444,23.776,2.7316,synthetic_demo
+S0016,Wheat,108,29.95,39.22,12.16,Metal silo,Low,Good,19.844,19.557,1.4464,synthetic_demo
+S0017,Groundnuts,24,28.52,43.53,17.25,Metal silo,None,Moderate,31.591,31.209,1.21,synthetic_demo
+S0018,Wheat,173,26.09,74.14,8.83,Ordinary bag,Low,Moderate,47.202,45.945,2.663,synthetic_demo
+S0019,Pulses,89,21.14,51.58,13.21,Metal silo,None,Moderate,42.183,41.744,1.0408,synthetic_demo
+S0020,Pulses,31,27.74,40.43,14.72,Hermetic bag,Low,Good,37.715,37.473,0.6398,synthetic_demo
+S0021,Rice,25,36.07,46.51,8.37,Hermetic bag,Low,Moderate,42.341,41.83,1.2052,synthetic_demo
+S0022,Soybean,62,36.92,49.55,13.15,Metal silo,High,Good,12.407,12.069,2.7282,synthetic_demo
+S0023,Rice,82,37.82,79.58,15.49,Metal silo,Medium,Poor,28.349,27.121,4.3315,synthetic_demo
+S0024,Wheat,141,30.22,53.68,8.94,Warehouse,None,Poor,47.157,46.272,1.8752,synthetic_demo
+S0025,Wheat,28,34.12,42.66,9.79,Ordinary bag,Medium,Moderate,13.84,13.581,1.8694,synthetic_demo
+S0026,Soybean,142,37.35,60.04,9.44,Metal silo,None,Good,10.932,10.703,2.092,synthetic_demo
+S0027,Soybean,28,26.65,69.71,13.81,Ordinary bag,Medium,Good,37.193,36.504,1.8541,synthetic_demo
+S0028,Groundnuts,29,17.85,81.38,11.98,Metal silo,Low,Good,34.829,34.319,1.4636,synthetic_demo
+S0029,Pulses,56,36.27,36.24,13.55,Hermetic bag,None,Moderate,11.315,11.182,1.1743,synthetic_demo
+S0030,Wheat,175,28.71,81.65,16.04,Ordinary bag,Medium,Moderate,5.803,5.509,5.0633,synthetic_demo
+S0031,Rice,151,33.33,46.63,13.31,Metal silo,Medium,Moderate,32.14,31.21,2.8943,synthetic_demo
+S0032,Wheat,72,24.8,67.6,16.67,Ordinary bag,None,Moderate,15.65,15.374,1.7629,synthetic_demo
+S0033,Soybean,149,17.42,38.33,13.94,Ordinary bag,Medium,Good,18.965,18.385,3.0603,synthetic_demo
+S0034,Soybean,167,18.81,49.24,9.54,Ordinary bag,None,Good,7.493,7.333,2.1375,synthetic_demo
+S0035,Groundnuts,16,28.6,69.04,11.94,Metal silo,Low,Good,44.375,44.136,0.5388,synthetic_demo
+S0036,Pulses,14,19.17,46.84,10.49,Warehouse,Low,Moderate,7.216,7.192,0.3428,synthetic_demo
+S0037,Wheat,152,16.2,81.24,8.99,Metal silo,High,Poor,49.081,47.258,3.7143,synthetic_demo
+S0038,Pulses,142,29.78,73.95,9.35,Metal silo,Low,Moderate,43.591,43.066,1.2031,synthetic_demo
+S0039,Groundnuts,74,29.71,48.32,9.4,Ordinary bag,Low,Moderate,15.466,15.224,1.5627,synthetic_demo
+S0040,Pulses,70,22.53,53.97,14.86,Hermetic bag,High,Good,46.236,44.902,2.8844,synthetic_demo
+S0041,Groundnuts,64,27.32,77.43,14.53,Hermetic bag,Low,Poor,33.481,32.817,1.9831,synthetic_demo
+S0042,Rice,134,19.66,69.74,16.61,Metal silo,Low,Good,9.279,9.009,2.9129,synthetic_demo
+S0043,Pulses,21,36.53,41.87,17.59,Hermetic bag,Low,Poor,40.218,39.522,1.7308,synthetic_demo
+S0044,Soybean,171,20.83,64.5,8.95,Warehouse,None,Moderate,30.423,29.63,2.6067,synthetic_demo
+S0045,Maize,88,27.02,73.2,15.99,Warehouse,Low,Moderate,46.906,45.357,3.3007,synthetic_demo
+S0046,Groundnuts,27,17.02,67.89,12.19,Metal silo,Low,Poor,20.014,19.701,1.5622,synthetic_demo
+S0047,Groundnuts,139,21.22,53.21,11.14,Ordinary bag,None,Good,47.126,46.474,1.3827,synthetic_demo
+S0048,Groundnuts,73,31.78,62.65,17.36,Ordinary bag,Low,Poor,21.936,21.015,4.1994,synthetic_demo
+S0049,Wheat,131,36.88,40.92,16.51,Metal silo,None,Moderate,31.472,30.789,2.1679,synthetic_demo
+S0050,Pulses,9,25.45,76.27,10.95,Metal silo,Low,Moderate,18.587,18.397,1.0182,synthetic_demo
+S0051,Groundnuts,142,17.54,84.85,16.79,Warehouse,Medium,Good,9.789,9.414,3.8304,synthetic_demo
+S0052,Pulses,22,35.63,36.45,10.41,Ordinary bag,Medium,Good,13.919,13.663,1.8381,synthetic_demo
+S0053,Rice,121,15.83,35.27,8.52,Metal silo,Medium,Moderate,15.735,15.57,1.0499,synthetic_demo
+S0054,Rice,16,33.42,81.39,15.72,Metal silo,Medium,Poor,6.807,6.626,2.6624,synthetic_demo
+S0055,Wheat,28,26.6,72.26,14.3,Hermetic bag,None,Poor,38.058,37.776,0.7409,synthetic_demo
+S0056,Wheat,54,31.33,84.01,14.12,Warehouse,Low,Good,6.906,6.766,2.0207,synthetic_demo
+S0057,Maize,130,18.98,39.59,9.84,Ordinary bag,Low,Poor,40.284,39.099,2.9405,synthetic_demo
+S0058,Soybean,106,18.34,82.3,11.01,Ordinary bag,Low,Moderate,34.215,33.158,3.0912,synthetic_demo
+S0059,Wheat,32,26.69,55.2,12.74,Hermetic bag,None,Good,17.513,17.458,0.3158,synthetic_demo
+S0060,Pulses,81,29.05,66.73,12.12,Hermetic bag,None,Moderate,31.474,31.293,0.5734,synthetic_demo
+S0061,Soybean,13,24.62,58.71,10.26,Hermetic bag,Low,Moderate,36.59,36.493,0.2653,synthetic_demo
+S0062,Pulses,120,22.27,74.37,13.49,Hermetic bag,Low,Moderate,21.23,20.832,1.8736,synthetic_demo
+S0063,Groundnuts,135,35.39,81.05,13.04,Warehouse,Medium,Moderate,19.15,18.427,3.7781,synthetic_demo
+S0064,Maize,92,17.66,38.6,16.42,Metal silo,None,Good,20.036,19.783,1.2607,synthetic_demo
+S0065,Groundnuts,61,32.08,35.73,16.27,Warehouse,Low,Poor,11.913,11.589,2.7141,synthetic_demo
+S0066,Groundnuts,27,23.39,82.92,17.95,Ordinary bag,None,Poor,35.945,35.142,2.2342,synthetic_demo
+S0067,Groundnuts,74,29.74,35.54,10.09,Metal silo,None,Moderate,12.466,12.281,1.4854,synthetic_demo
+S0068,Soybean,179,27.79,76.95,17.9,Warehouse,Low,Good,22.666,21.679,4.3551,synthetic_demo
+S0069,Soybean,138,24.98,58.47,9.51,Ordinary bag,High,Good,7.009,6.796,3.0387,synthetic_demo
+S0070,Rice,57,26.27,64.32,12.93,Hermetic bag,None,Good,42.961,42.731,0.5361,synthetic_demo
+S0071,Pulses,119,30.41,73.15,8.58,Warehouse,Low,Moderate,20.231,19.679,2.727,synthetic_demo
+S0072,Rice,90,32.68,77.6,13.05,Ordinary bag,Low,Poor,43.262,41.995,2.9304,synthetic_demo
+S0073,Pulses,93,27.22,40.25,11.99,Metal silo,Low,Poor,12.988,12.691,2.2814,synthetic_demo
+S0074,Rice,40,15.57,81.37,12.48,Ordinary bag,Low,Good,5.329,5.234,1.7826,synthetic_demo
+S0075,Rice,129,29.58,84.09,14.2,Metal silo,Medium,Moderate,45.65,44.578,2.3468,synthetic_demo
+S0076,Rice,174,32.99,78.34,9.14,Warehouse,Low,Poor,29.89,28.717,3.9234,synthetic_demo
+S0077,Maize,175,37.65,49.41,15.34,Metal silo,None,Poor,10.574,10.251,3.0565,synthetic_demo
+S0078,Pulses,142,26.26,84.28,12.65,Ordinary bag,Low,Poor,40.716,38.989,4.2421,synthetic_demo
+S0079,Rice,103,33.45,81.24,16.23,Hermetic bag,Low,Good,7.191,7.06,1.8301,synthetic_demo
+S0080,Soybean,124,31.4,73.69,16.65,Warehouse,Medium,Poor,7.203,6.894,4.2902,synthetic_demo
+S0081,Wheat,115,34.74,35.23,13.15,Ordinary bag,None,Poor,23.061,22.432,2.7278,synthetic_demo
+S0082,Pulses,123,20.47,77.64,11.48,Metal silo,None,Poor,31.564,30.985,1.8347,synthetic_demo
+S0083,Wheat,54,35.39,44.38,8.85,Warehouse,Medium,Moderate,41.334,40.022,3.1747,synthetic_demo
+S0084,Pulses,58,24.38,41.84,13.75,Hermetic bag,Medium,Poor,31.785,31.131,2.0561,synthetic_demo
+S0085,Maize,166,26.43,41.72,11.65,Hermetic bag,None,Good,5.795,5.729,1.1428,synthetic_demo
+S0086,Soybean,117,22.9,56.02,17.59,Metal silo,Low,Poor,17.804,17.314,2.7554,synthetic_demo
+S0087,Maize,47,22.48,80.45,13.3,Metal silo,Low,Poor,34.405,33.753,1.8955,synthetic_demo
+S0088,Soybean,48,22.42,42.77,16.74,Hermetic bag,Low,Good,40.639,40.298,0.8378,synthetic_demo
+S0089,Pulses,83,25.95,84.74,14.75,Ordinary bag,High,Poor,40.442,38.597,4.5615,synthetic_demo
+S0090,Rice,104,17.34,67.65,17.55,Metal silo,Low,Moderate,6.613,6.525,1.3283,synthetic_demo
+S0091,Groundnuts,24,15.94,47.3,8.66,Metal silo,Low,Moderate,19.066,18.969,0.5071,synthetic_demo
+S0092,Soybean,26,23.84,38.03,14.98,Ordinary bag,None,Good,22.736,22.403,1.4627,synthetic_demo
+S0093,Wheat,7,17.58,78.14,8.01,Hermetic bag,Low,Moderate,19.989,19.87,0.5945,synthetic_demo
+S0094,Pulses,142,34.35,48.02,11.22,Warehouse,Low,Good,35.747,34.697,2.9363,synthetic_demo
+S0095,Groundnuts,64,36.4,37.43,12.61,Metal silo,None,Poor,7.132,6.998,1.872,synthetic_demo
+S0096,Wheat,166,15.21,44.42,8.31,Hermetic bag,Low,Good,15.874,15.615,1.6288,synthetic_demo
+S0097,Rice,109,34.54,35.24,16.53,Warehouse,None,Moderate,39.782,38.862,2.3131,synthetic_demo
+S0098,Rice,51,36.13,57.72,14.03,Metal silo,Low,Poor,41.592,40.516,2.5882,synthetic_demo
+S0099,Pulses,146,28.82,45.82,12.14,Warehouse,None,Good,6.343,6.271,1.1245,synthetic_demo
+S0100,Maize,10,18.81,71.26,15.08,Ordinary bag,None,Poor,45.051,43.781,2.8196,synthetic_demo
+S0101,Rice,28,18.31,69.65,9.73,Metal silo,High,Moderate,5.18,5.07,2.1303,synthetic_demo
+S0102,Pulses,179,28.45,41.35,16.97,Hermetic bag,Low,Poor,32.981,31.957,3.1034,synthetic_demo
+S0103,Groundnuts,15,28.68,49.74,14.64,Metal silo,None,Poor,31.807,31.234,1.8016,synthetic_demo
+S0104,Soybean,159,20.83,65.54,13.54,Warehouse,Low,Moderate,37.66,36.392,3.3659,synthetic_demo
+S0105,Rice,138,37.62,55.96,13.15,Metal silo,Medium,Good,28.41,27.667,2.616,synthetic_demo
+S0106,Soybean,23,35.46,54.75,14.83,Ordinary bag,High,Good,13.03,12.506,4.0188,synthetic_demo
+S0107,Soybean,156,35.99,45.61,12.7,Metal silo,Medium,Poor,22.057,21.238,3.7139,synthetic_demo
+S0108,Wheat,136,31.82,74.15,13.7,Ordinary bag,High,Good,43.951,42.208,3.9647,synthetic_demo
+S0109,Pulses,24,19.7,72.18,8.23,Hermetic bag,Low,Poor,37.369,37.04,0.8801,synthetic_demo
+S0110,Pulses,75,22.34,65.44,13.81,Ordinary bag,Low,Moderate,47.092,46.148,2.0047,synthetic_demo
+S0111,Wheat,41,23.68,54.71,9.31,Ordinary bag,Low,Good,20.276,20.026,1.2354,synthetic_demo
+S0112,Groundnuts,49,17.28,72.68,16.81,Ordinary bag,None,Good,13.359,13.125,1.7545,synthetic_demo
+S0113,Wheat,88,20.97,37.26,12.81,Hermetic bag,Low,Poor,27.298,27.149,0.5452,synthetic_demo
+S0114,Rice,50,21.78,73.24,16.77,Metal silo,High,Poor,49.207,47.682,3.0981,synthetic_demo
+S0115,Pulses,19,18.17,50.22,13.53,Ordinary bag,Medium,Good,32.754,32.286,1.4292,synthetic_demo
+S0116,Pulses,35,20.82,43.02,16.52,Ordinary bag,Medium,Moderate,18.321,17.976,1.8874,synthetic_demo
+S0117,Soybean,77,32.48,73.62,10.07,Warehouse,None,Poor,45.325,44.437,1.9604,synthetic_demo
+S0118,Maize,53,34.47,43.97,12.14,Hermetic bag,None,Moderate,36.961,36.357,1.6335,synthetic_demo
+S0119,Pulses,159,22.8,61.54,10.48,Ordinary bag,None,Good,47.301,46.348,2.014,synthetic_demo
+S0120,Wheat,142,26.91,59.53,13.3,Ordinary bag,Low,Moderate,10.929,10.621,2.8205,synthetic_demo
+S0121,Rice,172,26.09,82.66,9.64,Ordinary bag,None,Moderate,16.393,15.833,3.4167,synthetic_demo
+S0122,Maize,27,36.09,51.08,14.08,Hermetic bag,Low,Moderate,28.935,28.447,1.6847,synthetic_demo
+S0123,Soybean,179,33.82,72.08,12.69,Metal silo,High,Good,20.362,19.568,3.9028,synthetic_demo
+S0124,Soybean,66,33.27,66.14,15.51,Warehouse,None,Poor,46.57,45.449,2.4077,synthetic_demo
+S0125,Rice,118,15.05,84.67,10.81,Metal silo,Low,Good,10.806,10.648,1.4653,synthetic_demo
+S0126,Groundnuts,117,24.04,81.09,11.19,Ordinary bag,Low,Poor,34.698,33.751,2.7293,synthetic_demo
+S0127,Wheat,89,36.85,52.14,9.77,Hermetic bag,Medium,Poor,6.811,6.686,1.8385,synthetic_demo
+S0128,Rice,162,32.24,84.59,13.31,Metal silo,None,Moderate,47.639,45.965,3.5148,synthetic_demo
+S0129,Groundnuts,135,24.27,63.09,15.2,Warehouse,High,Moderate,23.869,22.831,4.3467,synthetic_demo
+S0130,Maize,66,24.39,57.0,9.26,Metal silo,Low,Good,34.498,34.053,1.2911,synthetic_demo
+S0131,Rice,10,22.51,44.89,15.78,Metal silo,None,Poor,35.053,34.689,1.0387,synthetic_demo
+S0132,Soybean,54,18.19,49.18,14.75,Metal silo,None,Poor,29.394,29.239,0.5243,synthetic_demo
+S0133,Groundnuts,172,29.03,47.76,14.25,Hermetic bag,High,Good,22.985,22.207,3.3868,synthetic_demo
+S0134,Pulses,11,24.2,78.76,14.1,Ordinary bag,High,Moderate,43.429,42.158,2.9279,synthetic_demo
+S0135,Soybean,101,26.27,66.61,11.34,Metal silo,High,Good,46.574,45.447,2.4205,synthetic_demo
+S0136,Soybean,177,32.13,73.23,15.63,Hermetic bag,Low,Moderate,15.81,15.298,3.2423,synthetic_demo
+S0137,Pulses,57,20.93,64.3,12.1,Ordinary bag,Medium,Good,43.726,42.952,1.7687,synthetic_demo
+S0138,Maize,8,22.73,74.88,16.39,Hermetic bag,Medium,Good,10.207,10.049,1.5414,synthetic_demo
+S0139,Maize,180,19.43,42.7,12.23,Ordinary bag,High,Moderate,49.137,46.818,4.7197,synthetic_demo
+S0140,Soybean,31,33.19,48.53,16.85,Hermetic bag,None,Moderate,42.464,41.823,1.5096,synthetic_demo
+S0141,Wheat,80,27.7,60.04,14.86,Metal silo,High,Moderate,49.974,48.449,3.0524,synthetic_demo
+S0142,Wheat,23,31.74,83.83,11.18,Ordinary bag,Low,Moderate,7.314,7.149,2.2476,synthetic_demo
+S0143,Groundnuts,68,33.11,76.61,16.21,Metal silo,None,Moderate,38.697,37.884,2.1003,synthetic_demo
+S0144,Rice,92,35.54,42.2,16.79,Metal silo,None,Good,29.023,28.637,1.3289,synthetic_demo
+S0145,Pulses,16,15.01,56.82,15.75,Hermetic bag,Low,Good,42.041,41.918,0.2909,synthetic_demo
+S0146,Wheat,32,34.8,76.16,13.39,Ordinary bag,None,Poor,22.752,22.064,3.0246,synthetic_demo
+S0147,Pulses,51,32.3,60.21,15.5,Warehouse,Low,Moderate,14.864,14.559,2.0496,synthetic_demo
+S0148,Pulses,137,17.73,39.3,9.76,Hermetic bag,Medium,Good,22.933,22.487,1.9443,synthetic_demo
+S0149,Soybean,30,30.03,57.44,11.93,Hermetic bag,High,Poor,44.279,43.33,2.1413,synthetic_demo
+S0150,Pulses,45,30.09,49.45,15.35,Hermetic bag,Low,Moderate,42.285,41.434,2.0124,synthetic_demo
+S0151,Maize,11,16.14,65.08,12.86,Warehouse,Low,Good,39.106,38.905,0.5127,synthetic_demo
+S0152,Maize,104,23.86,48.53,13.22,Hermetic bag,Low,Good,35.449,34.891,1.576,synthetic_demo
+S0153,Maize,7,19.88,79.73,14.46,Metal silo,Medium,Good,26.148,25.593,2.1238,synthetic_demo
+S0154,Soybean,169,16.37,45.76,13.86,Ordinary bag,Low,Good,14.634,14.296,2.3084,synthetic_demo
+S0155,Maize,43,24.72,43.81,9.35,Warehouse,None,Poor,21.234,20.957,1.3031,synthetic_demo
+S0156,Pulses,69,21.09,65.52,10.05,Metal silo,High,Poor,9.492,9.272,2.3207,synthetic_demo
+S0157,Wheat,27,29.25,41.1,16.52,Metal silo,Medium,Poor,28.673,27.896,2.7078,synthetic_demo
+S0158,Maize,14,24.23,51.2,17.49,Hermetic bag,Medium,Moderate,12.665,12.486,1.4171,synthetic_demo
+S0159,Rice,93,26.35,83.54,11.81,Metal silo,Low,Moderate,10.762,10.526,2.1963,synthetic_demo
+S0160,Rice,40,17.38,78.31,13.89,Warehouse,Low,Moderate,24.418,23.951,1.9153,synthetic_demo
+S0161,Maize,168,36.45,54.57,11.29,Ordinary bag,Low,Moderate,25.782,24.812,3.7624,synthetic_demo
+S0162,Maize,103,22.38,52.29,11.79,Warehouse,None,Good,37.54,36.976,1.5022,synthetic_demo
+S0163,Soybean,44,27.94,72.78,10.57,Warehouse,High,Poor,31.883,30.624,3.9466,synthetic_demo
+S0164,Soybean,16,36.75,54.62,17.24,Metal silo,None,Moderate,6.734,6.585,2.2227,synthetic_demo
+S0165,Soybean,104,15.61,72.17,16.52,Hermetic bag,Low,Moderate,5.246,5.132,2.1869,synthetic_demo
+S0166,Soybean,64,35.21,53.65,13.65,Hermetic bag,None,Good,39.871,39.851,0.05,synthetic_demo
+S0167,Rice,100,37.2,83.18,16.56,Metal silo,Low,Good,44.517,43.692,1.8527,synthetic_demo
+S0168,Maize,148,26.08,63.22,17.82,Warehouse,Low,Moderate,21.649,20.891,3.5042,synthetic_demo
+S0169,Wheat,27,33.28,76.89,10.84,Warehouse,Medium,Good,6.079,5.948,2.1495,synthetic_demo
+S0170,Pulses,87,30.87,43.17,14.68,Hermetic bag,Low,Moderate,6.804,6.666,2.0376,synthetic_demo
+S0171,Soybean,97,19.93,41.98,9.88,Ordinary bag,None,Moderate,47.629,46.77,1.8034,synthetic_demo
+S0172,Rice,147,37.41,39.04,14.52,Metal silo,Low,Poor,24.306,23.471,3.4352,synthetic_demo
+S0173,Maize,13,27.3,84.68,17.59,Warehouse,Medium,Good,18.579,18.037,2.9171,synthetic_demo
+S0174,Maize,14,36.53,76.87,9.18,Ordinary bag,Medium,Good,12.009,11.703,2.5493,synthetic_demo
+S0175,Wheat,166,28.05,54.86,12.45,Metal silo,High,Good,18.979,18.397,3.0669,synthetic_demo
+S0176,Pulses,56,37.18,39.71,16.67,Hermetic bag,Medium,Poor,48.915,47.417,3.0639,synthetic_demo
+S0177,Maize,171,17.92,74.79,13.46,Ordinary bag,Medium,Moderate,48.731,46.418,4.746,synthetic_demo
+S0178,Groundnuts,91,25.5,54.32,11.62,Hermetic bag,None,Moderate,8.485,8.395,1.0526,synthetic_demo
+S0179,Groundnuts,84,36.41,65.61,8.35,Ordinary bag,None,Good,48.908,47.758,2.3524,synthetic_demo
+S0180,Maize,96,36.53,83.86,10.36,Warehouse,None,Good,7.85,7.676,2.2095,synthetic_demo
+S0181,Wheat,105,35.99,61.86,14.26,Metal silo,Medium,Good,32.801,32.192,1.8555,synthetic_demo
+S0182,Pulses,172,23.0,39.53,10.26,Ordinary bag,High,Moderate,22.024,21.144,3.9938,synthetic_demo
+S0183,Wheat,101,19.2,51.04,14.53,Hermetic bag,Low,Poor,15.289,14.987,1.9788,synthetic_demo
+S0184,Soybean,36,36.54,44.4,9.07,Warehouse,Low,Moderate,27.869,27.409,1.6497,synthetic_demo
+S0185,Rice,180,26.18,58.9,12.22,Metal silo,Low,Good,15.259,14.951,2.0141,synthetic_demo
+S0186,Pulses,15,37.57,58.45,16.97,Ordinary bag,None,Moderate,42.0,41.095,2.1548,synthetic_demo
+S0187,Groundnuts,143,24.85,66.9,16.56,Metal silo,None,Moderate,34.814,33.817,2.8642,synthetic_demo
+S0188,Soybean,174,23.53,56.25,16.12,Ordinary bag,Medium,Moderate,25.687,24.784,3.5166,synthetic_demo
+S0189,Pulses,136,18.02,44.93,14.27,Hermetic bag,Medium,Poor,17.266,16.644,3.6025,synthetic_demo
+S0190,Wheat,173,18.55,44.88,10.91,Ordinary bag,Medium,Moderate,39.225,37.861,3.4766,synthetic_demo
+S0191,Soybean,37,23.23,58.92,9.47,Ordinary bag,None,Good,10.727,10.663,0.6043,synthetic_demo
+S0192,Groundnuts,129,16.61,59.06,15.82,Warehouse,Medium,Poor,25.171,24.259,3.6238,synthetic_demo
+S0193,Rice,48,23.3,43.82,12.67,Ordinary bag,None,Moderate,38.83,37.976,2.1984,synthetic_demo
+S0194,Rice,54,18.01,56.94,11.03,Metal silo,None,Moderate,39.342,39.284,0.1482,synthetic_demo
+S0195,Maize,93,29.79,78.36,17.99,Ordinary bag,Medium,Moderate,45.887,43.946,4.2313,synthetic_demo
+S0196,Maize,87,16.87,35.79,12.77,Ordinary bag,Low,Moderate,30.568,29.722,2.7649,synthetic_demo
+S0197,Pulses,152,17.5,46.26,15.93,Hermetic bag,High,Poor,44.281,42.611,3.772,synthetic_demo
+S0198,Wheat,61,24.24,48.4,14.06,Warehouse,None,Poor,30.065,29.47,1.9798,synthetic_demo
+S0199,Rice,36,19.49,37.9,17.49,Metal silo,Medium,Moderate,35.66,35.07,1.6531,synthetic_demo
+S0200,Groundnuts,37,33.68,48.24,17.13,Metal silo,Low,Good,41.651,41.128,1.2565,synthetic_demo
+S0201,Soybean,55,37.18,48.23,12.3,Metal silo,None,Moderate,39.911,39.311,1.5027,synthetic_demo
+S0202,Pulses,72,34.21,45.65,8.04,Warehouse,High,Moderate,6.739,6.48,3.839,synthetic_demo
+S0203,Soybean,97,33.63,39.45,11.95,Ordinary bag,Low,Poor,13.498,13.131,2.7139,synthetic_demo
+S0204,Pulses,78,26.03,78.09,14.42,Warehouse,High,Poor,23.533,22.488,4.4423,synthetic_demo
+S0205,Rice,167,20.66,71.49,15.55,Metal silo,Low,Good,14.025,13.71,2.2511,synthetic_demo
+S0206,Maize,87,21.66,74.8,17.08,Warehouse,None,Poor,17.336,16.806,3.0577,synthetic_demo
+S0207,Rice,30,36.71,55.1,10.25,Ordinary bag,Low,Poor,6.58,6.407,2.6262,synthetic_demo
+S0208,Groundnuts,118,33.01,45.55,17.17,Warehouse,Medium,Poor,15.245,14.56,4.4937,synthetic_demo
+S0209,Soybean,157,22.03,65.95,15.6,Warehouse,Medium,Good,47.233,45.982,2.6491,synthetic_demo
+S0210,Soybean,83,35.16,61.37,15.45,Hermetic bag,Medium,Poor,17.953,17.332,3.4631,synthetic_demo
+S0211,Soybean,48,26.57,60.26,13.83,Metal silo,Medium,Moderate,46.092,44.906,2.574,synthetic_demo
+S0212,Groundnuts,135,30.59,61.15,9.89,Ordinary bag,High,Poor,37.483,35.657,4.8715,synthetic_demo
+S0213,Wheat,178,23.1,66.91,12.74,Hermetic bag,None,Poor,23.557,23.045,2.1733,synthetic_demo
+S0214,Wheat,56,33.12,54.14,17.8,Ordinary bag,None,Poor,39.659,38.819,2.118,synthetic_demo
+S0215,Rice,112,30.15,76.48,8.24,Ordinary bag,Medium,Good,30.359,29.263,3.6091,synthetic_demo
+S0216,Maize,16,23.01,78.26,8.31,Metal silo,High,Moderate,7.29,7.152,1.8836,synthetic_demo
+S0217,Pulses,157,32.16,79.29,10.16,Warehouse,Medium,Moderate,16.056,15.574,3.0045,synthetic_demo
+S0218,Maize,11,37.05,70.5,14.36,Ordinary bag,Low,Poor,26.426,25.634,2.9983,synthetic_demo
+S0219,Wheat,118,19.64,79.4,16.12,Hermetic bag,Low,Moderate,11.346,11.162,1.628,synthetic_demo
+S0220,Rice,164,36.2,51.61,9.69,Ordinary bag,None,Good,10.405,10.169,2.2708,synthetic_demo
+S0221,Wheat,179,16.7,41.63,16.27,Warehouse,Medium,Moderate,33.391,32.204,3.5545,synthetic_demo
+S0222,Rice,118,27.01,70.64,12.47,Warehouse,Low,Moderate,12.637,12.354,2.2394,synthetic_demo
+S0223,Groundnuts,52,18.53,47.32,16.42,Warehouse,Low,Good,43.538,42.908,1.4481,synthetic_demo
+S0224,Soybean,140,22.08,45.83,14.89,Warehouse,None,Poor,30.598,29.603,3.2518,synthetic_demo
+S0225,Maize,103,29.3,65.52,14.24,Metal silo,Low,Good,35.364,34.713,1.8416,synthetic_demo
+S0226,Pulses,19,25.28,55.45,8.87,Metal silo,Low,Good,38.431,38.412,0.05,synthetic_demo
+S0227,Wheat,139,25.87,59.96,14.2,Warehouse,Low,Poor,28.79,28.045,2.586,synthetic_demo
+S0228,Soybean,135,16.65,60.78,12.82,Warehouse,Low,Poor,26.074,25.186,3.4079,synthetic_demo
+S0229,Pulses,85,19.16,45.85,8.95,Warehouse,Low,Good,39.616,39.461,0.3921,synthetic_demo
+S0230,Groundnuts,12,28.11,42.71,17.41,Metal silo,Low,Good,19.681,19.473,1.0564,synthetic_demo
+S0231,Rice,78,32.47,46.53,17.06,Metal silo,Medium,Moderate,43.238,42.383,1.978,synthetic_demo
+S0232,Groundnuts,45,21.6,47.52,10.63,Warehouse,High,Moderate,49.563,48.114,2.9233,synthetic_demo
+S0233,Maize,118,34.78,81.65,10.04,Ordinary bag,Medium,Moderate,18.644,17.811,4.4661,synthetic_demo
+S0234,Rice,178,37.66,80.31,15.98,Metal silo,None,Good,29.628,28.65,3.3012,synthetic_demo
+S0235,Rice,94,29.64,55.42,15.49,Metal silo,None,Moderate,10.725,10.503,2.0696,synthetic_demo
+S0236,Pulses,154,25.26,46.39,15.59,Metal silo,None,Moderate,19.236,18.892,1.7887,synthetic_demo
+S0237,Rice,121,21.33,38.25,8.55,Metal silo,None,Moderate,43.196,42.658,1.2452,synthetic_demo
+S0238,Pulses,112,25.23,57.14,8.72,Ordinary bag,Medium,Poor,5.496,5.321,3.186,synthetic_demo
+S0239,Pulses,164,27.64,42.5,10.03,Metal silo,Medium,Moderate,31.974,31.265,2.2166,synthetic_demo
+S0240,Soybean,92,21.91,58.86,11.6,Warehouse,None,Good,20.85,20.643,0.9892,synthetic_demo
+S0241,Maize,10,25.1,67.2,14.1,Warehouse,Medium,Poor,37.027,35.793,3.3319,synthetic_demo
+S0242,Soybean,89,28.88,47.28,8.43,Metal silo,Low,Good,23.627,23.395,0.9805,synthetic_demo
+S0243,Wheat,150,36.29,45.07,17.3,Warehouse,High,Good,47.837,45.669,4.5322,synthetic_demo
+S0244,Soybean,139,37.31,80.3,17.71,Hermetic bag,None,Moderate,43.241,41.701,3.5593,synthetic_demo
+S0245,Soybean,113,24.6,63.59,9.54,Warehouse,None,Poor,37.84,37.267,1.5145,synthetic_demo
+S0246,Pulses,89,26.73,50.61,17.69,Hermetic bag,Low,Poor,12.866,12.666,1.554,synthetic_demo
+S0247,Groundnuts,87,36.68,71.71,10.15,Metal silo,Low,Poor,43.327,42.302,2.3668,synthetic_demo
+S0248,Pulses,114,36.31,47.89,14.93,Warehouse,None,Poor,8.978,8.735,2.7097,synthetic_demo
+S0249,Soybean,66,16.64,58.77,15.54,Hermetic bag,None,Good,43.056,42.741,0.7327,synthetic_demo
+S0250,Rice,153,25.27,82.65,14.51,Hermetic bag,Medium,Good,27.017,26.287,2.7019,synthetic_demo
+S0251,Rice,33,30.81,37.37,10.87,Ordinary bag,Low,Good,23.646,23.351,1.2475,synthetic_demo
+S0252,Rice,55,15.74,65.72,11.74,Ordinary bag,None,Moderate,5.62,5.501,2.1129,synthetic_demo
+S0253,Maize,86,24.06,75.52,11.78,Metal silo,Low,Moderate,5.982,5.862,2.0189,synthetic_demo
+S0254,Groundnuts,67,24.69,40.01,15.83,Metal silo,None,Poor,32.062,31.46,1.8773,synthetic_demo
+S0255,Soybean,56,33.11,66.62,17.29,Metal silo,None,Poor,25.022,24.365,2.6265,synthetic_demo
+S0256,Pulses,32,22.73,84.38,8.16,Hermetic bag,Medium,Moderate,19.576,19.405,0.8708,synthetic_demo
+S0257,Wheat,177,25.92,41.55,8.52,Warehouse,None,Poor,27.683,27.035,2.3392,synthetic_demo
+S0258,Pulses,80,36.39,60.12,17.71,Metal silo,Low,Good,43.679,43.003,1.547,synthetic_demo
+S0259,Wheat,55,34.68,54.49,13.31,Metal silo,None,Poor,18.563,18.303,1.4006,synthetic_demo
+S0260,Maize,75,19.6,69.0,9.81,Warehouse,None,Poor,20.985,20.481,2.3992,synthetic_demo
+S0261,Rice,131,25.73,53.06,16.53,Hermetic bag,None,Moderate,45.504,44.917,1.2893,synthetic_demo
+S0262,Groundnuts,13,26.38,41.2,10.38,Warehouse,None,Poor,41.312,40.862,1.0899,synthetic_demo
+S0263,Rice,112,31.34,70.68,17.93,Ordinary bag,None,Moderate,28.363,27.471,3.144,synthetic_demo
+S0264,Groundnuts,37,29.1,35.71,17.28,Warehouse,None,Good,9.871,9.794,0.7821,synthetic_demo
+S0265,Maize,54,15.75,48.97,9.93,Metal silo,Low,Moderate,20.255,20.118,0.6756,synthetic_demo
+S0266,Rice,22,15.58,45.11,15.57,Warehouse,High,Poor,27.69,26.82,3.1414,synthetic_demo
+S0267,Soybean,61,32.8,73.24,16.44,Ordinary bag,Low,Poor,39.509,37.958,3.927,synthetic_demo
+S0268,Groundnuts,60,36.37,39.72,17.94,Ordinary bag,None,Poor,34.53,33.279,3.6241,synthetic_demo
+S0269,Groundnuts,141,33.38,65.12,16.57,Ordinary bag,None,Good,23.638,22.834,3.4011,synthetic_demo
+S0270,Pulses,84,21.1,54.64,12.25,Hermetic bag,None,Poor,45.218,44.615,1.3346,synthetic_demo
+S0271,Groundnuts,64,26.56,55.89,10.57,Ordinary bag,None,Moderate,20.837,20.543,1.4111,synthetic_demo
+S0272,Pulses,78,33.95,47.84,17.7,Hermetic bag,High,Poor,42.716,41.117,3.7438,synthetic_demo
+S0273,Soybean,98,18.91,75.91,13.84,Ordinary bag,High,Good,10.183,9.778,3.983,synthetic_demo
+S0274,Maize,132,16.35,64.89,16.16,Hermetic bag,Low,Good,16.635,16.245,2.3444,synthetic_demo
+S0275,Maize,27,36.55,79.74,9.86,Ordinary bag,Low,Good,37.313,36.575,1.9777,synthetic_demo
+S0276,Maize,34,17.4,84.99,12.55,Ordinary bag,Low,Poor,46.506,44.967,3.31,synthetic_demo
+S0277,Soybean,26,36.38,82.37,11.15,Ordinary bag,Low,Moderate,23.727,23.258,1.9766,synthetic_demo
+S0278,Pulses,163,20.83,70.26,8.67,Warehouse,Low,Good,20.256,19.785,2.3232,synthetic_demo
+S0279,Maize,23,36.85,72.43,16.76,Ordinary bag,None,Good,21.575,20.992,2.7039,synthetic_demo
+S0280,Maize,58,16.39,53.44,10.55,Warehouse,None,Moderate,16.785,16.575,1.2559,synthetic_demo
+S0281,Rice,74,22.94,61.7,15.72,Hermetic bag,Low,Moderate,48.479,47.841,1.3156,synthetic_demo
+S0282,Wheat,165,33.25,37.94,12.29,Metal silo,High,Poor,25.627,24.351,4.9783,synthetic_demo
+S0283,Maize,104,17.91,72.58,13.08,Hermetic bag,Medium,Poor,33.303,32.436,2.6029,synthetic_demo
+S0284,Maize,138,34.38,78.45,8.36,Hermetic bag,None,Moderate,43.716,42.668,2.3956,synthetic_demo
+S0285,Maize,80,19.33,51.95,15.04,Ordinary bag,None,Good,44.961,44.145,1.8167,synthetic_demo
+S0286,Wheat,41,21.72,83.6,15.08,Warehouse,None,Moderate,18.461,18.207,1.3741,synthetic_demo
+S0287,Wheat,133,15.99,35.24,15.29,Metal silo,Medium,Poor,26.224,25.708,1.9653,synthetic_demo
+S0288,Soybean,82,22.47,61.09,12.31,Ordinary bag,Medium,Moderate,49.775,48.557,2.4483,synthetic_demo
+S0289,Maize,73,19.16,52.61,10.87,Ordinary bag,Medium,Good,27.333,26.77,2.0587,synthetic_demo
+S0290,Soybean,12,16.54,55.16,8.8,Ordinary bag,High,Good,14.403,13.966,3.0351,synthetic_demo
+S0291,Wheat,106,26.45,64.02,11.77,Ordinary bag,None,Poor,24.278,23.65,2.5874,synthetic_demo
+S0292,Rice,158,23.5,63.39,8.69,Ordinary bag,None,Good,37.755,37.041,1.8893,synthetic_demo
+S0293,Wheat,132,16.53,78.13,16.36,Hermetic bag,None,Good,7.533,7.448,1.1251,synthetic_demo
+S0294,Groundnuts,47,27.61,56.31,15.96,Metal silo,Low,Moderate,49.509,48.608,1.8205,synthetic_demo
+S0295,Pulses,151,16.19,58.88,16.86,Hermetic bag,Low,Moderate,16.849,16.449,2.3736,synthetic_demo
+S0296,Wheat,70,26.99,58.11,11.27,Warehouse,None,Good,21.427,21.191,1.1,synthetic_demo
+S0297,Groundnuts,158,28.85,41.69,14.94,Metal silo,None,Poor,11.777,11.445,2.8167,synthetic_demo
+S0298,Wheat,15,32.53,84.36,8.45,Ordinary bag,None,Poor,31.646,31.015,1.9926,synthetic_demo
+S0299,Soybean,69,15.25,64.76,17.91,Metal silo,None,Good,10.577,10.404,1.6299,synthetic_demo
+S0300,Pulses,110,33.22,72.65,16.93,Ordinary bag,None,Poor,30.014,28.877,3.7899,synthetic_demo
+S0301,Soybean,64,36.43,69.09,17.75,Ordinary bag,Low,Moderate,26.92,25.831,4.0444,synthetic_demo
+S0302,Maize,48,27.14,38.37,17.31,Metal silo,None,Good,39.439,38.667,1.9579,synthetic_demo
+S0303,Wheat,163,31.69,38.43,14.92,Metal silo,Medium,Moderate,42.269,40.773,3.5383,synthetic_demo
+S0304,Soybean,108,22.42,69.86,17.57,Hermetic bag,Low,Moderate,24.671,24.127,2.2058,synthetic_demo
+S0305,Maize,180,18.69,45.12,13.39,Ordinary bag,Low,Moderate,7.208,6.972,3.2803,synthetic_demo
+S0306,Soybean,108,28.46,67.87,15.2,Hermetic bag,Medium,Moderate,33.114,32.115,3.0184,synthetic_demo
+S0307,Wheat,112,17.33,48.66,13.27,Metal silo,Low,Poor,9.068,8.835,2.5747,synthetic_demo
+S0308,Rice,45,31.88,76.37,13.93,Metal silo,None,Moderate,25.081,24.95,0.5242,synthetic_demo
+S0309,Wheat,132,26.95,53.41,8.5,Metal silo,None,Good,21.802,21.656,0.6707,synthetic_demo
+S0310,Maize,94,20.4,40.29,11.38,Hermetic bag,Low,Poor,39.763,39.244,1.3036,synthetic_demo
+S0311,Pulses,26,29.0,82.95,12.02,Hermetic bag,High,Good,44.765,43.686,2.4106,synthetic_demo
+S0312,Soybean,103,19.87,75.97,12.99,Hermetic bag,Low,Good,47.772,46.955,1.7098,synthetic_demo
+S0313,Groundnuts,55,16.23,82.02,17.37,Hermetic bag,Low,Moderate,25.817,25.387,1.6669,synthetic_demo
+S0314,Soybean,27,17.23,46.64,16.37,Ordinary bag,None,Good,29.688,29.403,0.9589,synthetic_demo
+S0315,Maize,35,27.96,53.4,14.26,Ordinary bag,None,Poor,46.105,44.894,2.6248,synthetic_demo
+S0316,Soybean,151,29.52,66.01,14.39,Warehouse,None,Poor,48.114,46.669,3.0034,synthetic_demo
+S0317,Rice,142,23.68,35.62,13.1,Ordinary bag,Low,Moderate,20.287,19.736,2.7162,synthetic_demo
+S0318,Wheat,175,18.98,50.98,10.94,Warehouse,Low,Moderate,33.968,33.493,1.3991,synthetic_demo
+S0319,Rice,56,30.93,36.25,10.62,Ordinary bag,None,Moderate,32.795,32.15,1.9682,synthetic_demo
+S0320,Wheat,136,26.88,65.2,11.96,Ordinary bag,None,Good,34.475,33.669,2.3365,synthetic_demo
+S0321,Maize,9,27.82,72.55,16.27,Ordinary bag,Low,Moderate,36.353,35.146,3.3187,synthetic_demo
+S0322,Soybean,28,36.3,36.3,16.36,Ordinary bag,None,Good,5.175,5.083,1.781,synthetic_demo
+S0323,Soybean,65,18.82,57.55,12.02,Metal silo,Medium,Poor,34.366,33.462,2.628,synthetic_demo
+S0324,Groundnuts,165,17.04,55.34,17.43,Warehouse,Low,Poor,35.033,33.604,4.0779,synthetic_demo
+S0325,Groundnuts,138,15.73,42.21,14.14,Metal silo,Low,Good,20.805,20.445,1.7316,synthetic_demo
+S0326,Soybean,149,26.34,73.64,10.71,Hermetic bag,None,Moderate,43.74,42.705,2.3665,synthetic_demo
+S0327,Soybean,163,35.18,82.98,10.28,Warehouse,Low,Poor,24.012,23.008,4.1814,synthetic_demo
+S0328,Maize,66,21.64,47.07,8.82,Warehouse,Medium,Moderate,33.357,32.543,2.4401,synthetic_demo
+S0329,Rice,81,25.68,45.46,16.23,Ordinary bag,Medium,Good,39.199,38.037,2.9659,synthetic_demo
+S0330,Rice,157,21.69,79.08,15.29,Metal silo,Low,Poor,43.085,41.321,4.0954,synthetic_demo
+S0331,Rice,80,33.72,72.23,12.53,Metal silo,Low,Poor,30.446,29.555,2.9271,synthetic_demo
+S0332,Groundnuts,46,34.34,54.83,11.94,Warehouse,Low,Good,41.262,40.616,1.5655,synthetic_demo
+S0333,Pulses,19,28.22,58.36,14.14,Warehouse,Low,Moderate,26.235,25.896,1.2925,synthetic_demo
+S0334,Rice,94,25.86,75.89,15.46,Hermetic bag,Medium,Moderate,43.414,42.249,2.6833,synthetic_demo
+S0335,Wheat,108,21.56,71.96,10.39,Warehouse,None,Poor,28.001,27.542,1.641,synthetic_demo
+S0336,Maize,73,35.14,84.35,16.75,Hermetic bag,Medium,Good,6.447,6.255,2.9696,synthetic_demo
+S0337,Soybean,158,30.84,61.64,11.88,Warehouse,Medium,Poor,26.078,25.033,4.0071,synthetic_demo
+S0338,Rice,47,18.92,67.14,17.72,Hermetic bag,None,Good,11.277,11.13,1.3053,synthetic_demo
+S0339,Soybean,46,26.57,84.54,8.12,Ordinary bag,Low,Moderate,41.335,40.573,1.8441,synthetic_demo
+S0340,Groundnuts,78,18.86,72.04,15.85,Ordinary bag,Low,Good,45.181,44.083,2.43,synthetic_demo
+S0341,Groundnuts,58,27.77,51.7,10.72,Warehouse,None,Moderate,28.833,28.252,2.0171,synthetic_demo
+S0342,Wheat,107,17.14,77.22,9.75,Hermetic bag,Low,Poor,40.224,39.775,1.116,synthetic_demo
+S0343,Groundnuts,39,26.43,36.65,10.25,Hermetic bag,Medium,Poor,8.635,8.486,1.7328,synthetic_demo
+S0344,Maize,145,35.0,69.92,14.74,Warehouse,Low,Moderate,46.36,44.444,4.1327,synthetic_demo
+S0345,Pulses,61,16.67,82.24,12.45,Hermetic bag,Medium,Poor,49.595,48.419,2.3716,synthetic_demo
+S0346,Rice,146,35.41,37.44,15.54,Warehouse,Low,Moderate,28.132,27.182,3.3767,synthetic_demo
+S0347,Pulses,30,17.69,40.17,14.38,Hermetic bag,None,Moderate,36.135,36.117,0.05,synthetic_demo
+S0348,Groundnuts,100,36.5,54.27,16.36,Warehouse,Medium,Good,49.48,47.431,4.1412,synthetic_demo
+S0349,Wheat,107,29.42,52.66,14.79,Metal silo,High,Poor,27.161,26.232,3.4209,synthetic_demo
+S0350,Maize,110,17.74,47.24,11.29,Warehouse,None,Poor,12.459,12.187,2.1845,synthetic_demo
+S0351,Rice,158,30.95,37.0,8.28,Ordinary bag,None,Moderate,31.853,31.184,2.0998,synthetic_demo
+S0352,Wheat,167,21.62,68.96,8.54,Metal silo,High,Poor,38.258,36.646,4.2147,synthetic_demo
+S0353,Rice,45,33.69,71.82,10.22,Metal silo,Low,Moderate,42.188,41.454,1.7409,synthetic_demo
+S0354,Maize,118,29.95,48.52,11.72,Warehouse,Medium,Good,24.485,23.88,2.4691,synthetic_demo
+S0355,Groundnuts,49,19.82,64.39,10.33,Warehouse,Medium,Good,21.941,21.556,1.7553,synthetic_demo
+S0356,Rice,82,33.75,51.04,15.58,Ordinary bag,Low,Poor,24.426,23.546,3.602,synthetic_demo
+S0357,Soybean,79,27.08,50.89,9.04,Ordinary bag,None,Moderate,23.47,23.159,1.3263,synthetic_demo
+S0358,Rice,168,15.83,66.07,12.58,Hermetic bag,None,Good,10.332,10.221,1.0722,synthetic_demo
+S0359,Wheat,54,24.23,61.45,8.01,Hermetic bag,None,Good,29.735,29.678,0.1927,synthetic_demo
+S0360,Maize,102,20.1,36.21,17.41,Ordinary bag,None,Good,11.595,11.231,3.1333,synthetic_demo
+S0361,Pulses,114,29.04,84.33,8.88,Ordinary bag,None,Poor,33.038,31.977,3.2119,synthetic_demo
+S0362,Wheat,73,36.42,42.46,17.97,Ordinary bag,Low,Moderate,48.556,46.964,3.2791,synthetic_demo
+S0363,Maize,167,28.06,70.22,9.49,Warehouse,Low,Moderate,25.531,24.721,3.1715,synthetic_demo
+S0364,Groundnuts,49,34.65,36.72,15.09,Metal silo,None,Poor,12.247,12.017,1.8773,synthetic_demo
+S0365,Pulses,17,28.57,69.2,13.88,Ordinary bag,Low,Moderate,31.743,31.045,2.2011,synthetic_demo
+S0366,Soybean,104,35.28,68.34,12.72,Warehouse,None,Good,16.008,15.648,2.2532,synthetic_demo
+S0367,Wheat,178,20.12,75.74,9.69,Warehouse,Low,Good,19.598,19.071,2.6894,synthetic_demo
+S0368,Wheat,173,35.13,42.68,15.77,Hermetic bag,High,Good,28.305,27.337,3.4196,synthetic_demo
+S0369,Groundnuts,34,15.27,47.4,17.14,Hermetic bag,High,Poor,9.534,9.205,3.4579,synthetic_demo
+S0370,Wheat,51,27.49,51.02,10.83,Hermetic bag,None,Moderate,26.111,26.097,0.0552,synthetic_demo
+S0371,Rice,29,36.4,60.29,16.2,Hermetic bag,Medium,Moderate,37.226,36.397,2.2263,synthetic_demo
+S0372,Rice,113,21.4,39.98,14.06,Hermetic bag,None,Good,7.732,7.696,0.4643,synthetic_demo
+S0373,Soybean,34,29.04,74.54,16.22,Hermetic bag,Low,Good,30.335,30.097,0.7876,synthetic_demo
+S0374,Groundnuts,120,19.83,83.96,8.98,Warehouse,Low,Poor,16.018,15.65,2.2992,synthetic_demo
+S0375,Wheat,21,32.81,64.5,9.11,Ordinary bag,Medium,Good,18.182,17.84,1.882,synthetic_demo
+S0376,Maize,139,31.06,48.93,15.09,Metal silo,None,Poor,19.677,19.129,2.7846,synthetic_demo
+S0377,Maize,136,25.91,63.54,11.14,Ordinary bag,None,Good,43.686,42.924,1.7435,synthetic_demo
+S0378,Pulses,72,33.17,38.22,10.54,Ordinary bag,High,Good,36.774,35.287,4.0457,synthetic_demo
+S0379,Soybean,7,19.24,66.78,11.8,Hermetic bag,Medium,Poor,25.132,24.839,1.1683,synthetic_demo
+S0380,Rice,118,36.13,47.43,16.87,Ordinary bag,Low,Good,40.228,39.188,2.5847,synthetic_demo
+S0381,Soybean,93,29.2,42.58,10.16,Warehouse,Low,Good,24.886,24.286,2.4075,synthetic_demo
+S0382,Wheat,160,23.6,57.3,12.1,Warehouse,Medium,Good,25.181,24.545,2.5247,synthetic_demo
+S0383,Pulses,174,33.76,71.18,16.69,Hermetic bag,None,Poor,32.493,31.288,3.7088,synthetic_demo
+S0384,Groundnuts,53,20.1,40.7,14.59,Ordinary bag,Medium,Poor,19.232,18.676,2.8932,synthetic_demo
+S0385,Maize,85,27.58,80.95,16.75,Hermetic bag,Medium,Poor,48.406,46.369,4.2084,synthetic_demo
+S0386,Soybean,15,16.92,54.51,10.58,Hermetic bag,High,Good,13.794,13.667,0.9168,synthetic_demo
+S0387,Groundnuts,139,29.74,68.8,11.31,Warehouse,None,Moderate,47.197,45.968,2.603,synthetic_demo
+S0388,Groundnuts,51,31.36,67.82,12.51,Ordinary bag,None,Moderate,35.3,34.524,2.1978,synthetic_demo
+S0389,Soybean,54,18.73,51.62,11.31,Metal silo,None,Moderate,13.685,13.662,0.168,synthetic_demo
+S0390,Rice,29,30.84,82.2,12.27,Hermetic bag,None,Poor,6.933,6.802,1.8947,synthetic_demo
+S0391,Pulses,139,34.39,37.84,15.77,Hermetic bag,None,Moderate,12.786,12.407,2.9621,synthetic_demo
+S0392,Wheat,18,34.02,66.97,15.35,Hermetic bag,Medium,Poor,13.271,12.962,2.3248,synthetic_demo
+S0393,Wheat,111,23.14,41.19,9.86,Ordinary bag,None,Good,7.561,7.479,1.0835,synthetic_demo
+S0394,Maize,61,37.59,83.22,9.43,Hermetic bag,Low,Poor,36.079,35.021,2.9332,synthetic_demo
+S0395,Wheat,39,16.76,65.21,17.87,Warehouse,Medium,Poor,49.306,48.029,2.5909,synthetic_demo
+S0396,Maize,13,34.94,53.23,8.04,Hermetic bag,High,Moderate,16.58,16.275,1.8391,synthetic_demo
+S0397,Groundnuts,37,16.33,39.03,15.27,Hermetic bag,None,Poor,17.974,17.827,0.8224,synthetic_demo
+S0398,Pulses,11,27.73,70.0,14.48,Metal silo,Low,Moderate,9.234,9.112,1.3271,synthetic_demo
+S0399,Pulses,169,32.51,81.14,17.17,Warehouse,High,Moderate,23.752,22.454,5.4654,synthetic_demo
+S0400,Rice,17,17.52,39.77,11.52,Hermetic bag,Medium,Poor,31.56,31.19,1.1726,synthetic_demo
+S0401,Soybean,137,23.16,35.65,10.81,Hermetic bag,None,Good,41.534,41.225,0.7444,synthetic_demo
+S0402,Rice,128,18.2,75.39,14.77,Ordinary bag,Low,Good,26.758,26.118,2.3935,synthetic_demo
+S0403,Rice,26,26.92,40.0,9.64,Hermetic bag,High,Good,17.819,17.501,1.7856,synthetic_demo
+S0404,Groundnuts,63,35.66,63.15,17.19,Metal silo,None,Good,30.03,29.401,2.0936,synthetic_demo
+S0405,Rice,146,35.23,58.63,17.71,Warehouse,None,Moderate,27.004,26.071,3.4558,synthetic_demo
+S0406,Rice,146,17.33,50.44,13.65,Hermetic bag,None,Good,36.325,36.055,0.7446,synthetic_demo
+S0407,Wheat,90,22.79,46.4,9.89,Metal silo,High,Poor,11.308,10.935,3.3001,synthetic_demo
+S0408,Rice,110,29.76,70.5,15.04,Warehouse,Low,Poor,29.001,27.885,3.8469,synthetic_demo
+S0409,Soybean,25,30.29,36.68,10.76,Hermetic bag,None,Good,33.743,33.726,0.05,synthetic_demo
+S0410,Wheat,80,17.07,56.67,11.53,Warehouse,Low,Poor,27.12,26.487,2.3341,synthetic_demo
+S0411,Wheat,175,32.39,59.85,12.79,Hermetic bag,High,Good,19.363,18.712,3.3638,synthetic_demo
+S0412,Soybean,180,31.53,37.37,8.62,Hermetic bag,Low,Good,8.22,8.03,2.3141,synthetic_demo
+S0413,Groundnuts,170,27.56,65.83,10.92,Ordinary bag,Medium,Good,9.58,9.278,3.157,synthetic_demo
+S0414,Groundnuts,61,15.29,56.7,15.08,Hermetic bag,Low,Poor,43.109,42.343,1.7779,synthetic_demo
+S0415,Wheat,154,26.65,46.15,17.44,Ordinary bag,None,Good,15.92,15.39,3.3328,synthetic_demo
+S0416,Rice,68,27.07,79.16,10.92,Metal silo,None,Moderate,41.98,41.401,1.3788,synthetic_demo
+S0417,Rice,25,26.57,68.59,15.96,Hermetic bag,Medium,Moderate,22.672,22.285,1.7065,synthetic_demo
+S0418,Pulses,27,15.89,51.45,12.95,Ordinary bag,Low,Moderate,26.627,26.162,1.7474,synthetic_demo
+S0419,Rice,123,22.32,52.31,13.85,Metal silo,None,Moderate,19.864,19.661,1.0244,synthetic_demo
+S0420,Rice,119,18.11,57.05,16.93,Warehouse,Medium,Good,12.343,11.987,2.8826,synthetic_demo
+S0421,Groundnuts,80,15.23,80.77,12.55,Ordinary bag,None,Poor,43.982,42.713,2.8865,synthetic_demo
+S0422,Pulses,103,19.66,69.26,13.49,Metal silo,Low,Poor,17.083,16.696,2.2636,synthetic_demo
+S0423,Maize,128,37.4,36.42,15.4,Metal silo,None,Poor,9.958,9.66,2.9902,synthetic_demo
+S0424,Maize,119,16.58,76.72,13.23,Ordinary bag,Medium,Poor,41.563,39.876,4.0594,synthetic_demo
+S0425,Maize,50,26.64,40.04,14.59,Metal silo,Low,Good,7.447,7.334,1.5143,synthetic_demo
+S0426,Pulses,47,29.26,74.34,8.57,Hermetic bag,Medium,Poor,20.402,19.991,2.0172,synthetic_demo
+S0427,Wheat,77,18.55,61.43,8.86,Metal silo,High,Poor,41.973,40.937,2.4674,synthetic_demo
+S0428,Rice,104,37.65,47.4,8.76,Hermetic bag,None,Moderate,19.505,19.244,1.3406,synthetic_demo
+S0429,Pulses,110,21.07,44.39,8.4,Metal silo,Medium,Moderate,20.15,19.748,1.9973,synthetic_demo
+S0430,Groundnuts,138,22.55,76.08,14.92,Metal silo,None,Moderate,6.579,6.412,2.5369,synthetic_demo
+S0431,Pulses,143,36.56,80.12,8.2,Hermetic bag,Low,Poor,40.53,39.364,2.8766,synthetic_demo
+S0432,Maize,57,32.28,74.65,14.2,Ordinary bag,None,Good,48.504,47.531,2.0058,synthetic_demo
+S0433,Pulses,84,27.7,55.48,13.53,Warehouse,Medium,Moderate,45.907,44.601,2.846,synthetic_demo
+S0434,Rice,105,25.17,70.26,16.38,Metal silo,Low,Moderate,38.738,37.894,2.1793,synthetic_demo
+S0435,Rice,136,19.8,59.92,13.88,Metal silo,Medium,Good,32.451,31.699,2.3188,synthetic_demo
+S0436,Pulses,149,31.49,72.91,11.92,Ordinary bag,Low,Poor,30.673,29.531,3.7234,synthetic_demo
+S0437,Pulses,119,31.52,63.36,12.97,Ordinary bag,Low,Poor,17.513,16.784,4.163,synthetic_demo
+S0438,Pulses,130,37.72,83.56,17.19,Metal silo,Low,Poor,12.748,12.287,3.6108,synthetic_demo
+S0439,Groundnuts,140,26.98,78.41,9.1,Warehouse,Low,Moderate,24.455,23.628,3.38,synthetic_demo
+S0440,Soybean,33,34.27,59.22,8.49,Metal silo,Low,Good,12.397,12.181,1.743,synthetic_demo
+S0441,Rice,145,20.25,64.61,9.54,Hermetic bag,Medium,Good,29.484,28.928,1.8857,synthetic_demo
+S0442,Maize,46,22.59,58.55,12.8,Metal silo,None,Poor,43.338,42.479,1.9834,synthetic_demo
+S0443,Pulses,103,22.91,60.96,10.92,Hermetic bag,Low,Poor,46.663,46.359,0.6506,synthetic_demo
+S0444,Maize,96,31.35,60.2,17.05,Metal silo,High,Good,41.549,39.83,4.1371,synthetic_demo
+S0445,Wheat,91,34.26,50.34,15.62,Metal silo,None,Good,25.058,24.74,1.2674,synthetic_demo
+S0446,Pulses,74,33.86,47.83,15.45,Hermetic bag,Medium,Good,40.641,39.879,1.8759,synthetic_demo
+S0447,Pulses,132,36.05,75.04,11.9,Hermetic bag,Medium,Moderate,18.167,17.591,3.1706,synthetic_demo
+S0448,Wheat,64,33.54,39.34,8.44,Ordinary bag,Medium,Poor,44.728,43.306,3.179,synthetic_demo
+S0449,Rice,83,21.6,41.5,13.01,Metal silo,High,Good,5.18,5.066,2.2103,synthetic_demo
+S0450,Rice,49,19.58,46.29,14.56,Ordinary bag,Low,Good,45.062,44.073,2.193,synthetic_demo
+S0451,Pulses,127,23.41,42.99,11.21,Ordinary bag,Low,Poor,17.488,16.948,3.0905,synthetic_demo
+S0452,Wheat,152,30.37,63.03,16.85,Hermetic bag,Low,Poor,13.54,13.04,3.6879,synthetic_demo
+S0453,Groundnuts,174,28.77,55.78,13.89,Ordinary bag,Medium,Good,14.749,14.135,4.165,synthetic_demo
+S0454,Pulses,99,21.36,36.51,16.16,Warehouse,None,Good,39.014,38.604,1.0515,synthetic_demo
+S0455,Rice,74,20.68,77.96,10.97,Metal silo,None,Good,14.142,14.003,0.9781,synthetic_demo
+S0456,Soybean,21,18.65,55.85,16.79,Warehouse,None,Good,45.876,45.362,1.1189,synthetic_demo
+S0457,Rice,125,20.53,55.99,10.11,Ordinary bag,Low,Good,30.912,30.065,2.7414,synthetic_demo
+S0458,Soybean,113,21.81,52.29,15.91,Metal silo,None,Poor,30.718,30.003,2.327,synthetic_demo
+S0459,Soybean,16,31.97,43.55,12.26,Warehouse,None,Moderate,9.255,9.047,2.245,synthetic_demo
+S0460,Maize,172,29.15,54.07,8.39,Hermetic bag,None,Moderate,29.414,28.842,1.9453,synthetic_demo
+S0461,Soybean,80,21.89,37.37,8.25,Hermetic bag,Medium,Moderate,15.983,15.69,1.8319,synthetic_demo
+S0462,Soybean,126,16.4,42.66,11.31,Hermetic bag,Low,Poor,38.039,37.179,2.2594,synthetic_demo
+S0463,Rice,138,37.82,72.72,16.52,Metal silo,Medium,Poor,41.081,39.091,4.8436,synthetic_demo
+S0464,Pulses,89,29.68,60.75,16.51,Hermetic bag,Medium,Moderate,40.971,40.17,1.955,synthetic_demo
+S0465,Pulses,50,31.32,72.85,17.36,Hermetic bag,Low,Poor,31.062,30.376,2.2091,synthetic_demo
+S0466,Groundnuts,176,20.87,71.24,15.96,Metal silo,None,Moderate,13.503,13.123,2.8133,synthetic_demo
+S0467,Groundnuts,95,17.07,70.85,10.5,Metal silo,None,Poor,14.012,13.755,1.8375,synthetic_demo
+S0468,Groundnuts,96,25.37,72.57,12.65,Ordinary bag,None,Moderate,17.517,17.058,2.6164,synthetic_demo
+S0469,Rice,35,37.73,51.35,8.88,Ordinary bag,None,Good,40.551,39.999,1.3612,synthetic_demo
+S0470,Rice,65,30.23,66.53,17.4,Ordinary bag,Low,Poor,41.802,40.299,3.5952,synthetic_demo
+S0471,Maize,92,31.2,38.91,15.58,Hermetic bag,None,Poor,42.625,41.806,1.922,synthetic_demo
+S0472,Maize,46,27.07,81.39,17.6,Warehouse,None,Good,36.417,35.707,1.9474,synthetic_demo
+S0473,Groundnuts,63,15.54,42.68,13.62,Hermetic bag,Low,Moderate,40.026,39.488,1.3454,synthetic_demo
+S0474,Wheat,54,15.36,45.33,11.12,Warehouse,None,Good,12.085,12.02,0.5428,synthetic_demo
+S0475,Groundnuts,116,36.52,74.91,13.68,Metal silo,Low,Good,7.772,7.556,2.7787,synthetic_demo
+S0476,Rice,74,24.84,48.99,14.86,Metal silo,Medium,Poor,33.249,32.446,2.4134,synthetic_demo
+S0477,Pulses,12,31.63,62.25,10.71,Hermetic bag,High,Good,33.096,32.461,1.9191,synthetic_demo
+S0478,Maize,115,24.52,58.51,10.9,Hermetic bag,Low,Moderate,6.797,6.707,1.331,synthetic_demo
+S0479,Maize,56,30.7,67.14,14.53,Hermetic bag,High,Moderate,27.875,27.115,2.7289,synthetic_demo
+S0480,Pulses,129,20.43,49.17,12.24,Warehouse,Low,Good,22.593,22.085,2.2501,synthetic_demo
+S0481,Rice,45,33.5,56.88,15.06,Ordinary bag,Low,Good,6.27,6.123,2.3381,synthetic_demo
+S0482,Wheat,66,36.83,51.21,13.64,Hermetic bag,Low,Good,26.017,25.929,0.336,synthetic_demo
+S0483,Soybean,42,17.56,40.99,17.99,Warehouse,None,Moderate,47.882,47.153,1.5218,synthetic_demo
+S0484,Groundnuts,79,31.5,80.73,15.13,Metal silo,High,Moderate,6.769,6.549,3.2492,synthetic_demo
+S0485,Wheat,154,36.37,47.74,9.42,Metal silo,Low,Moderate,28.543,27.781,2.6693,synthetic_demo
+S0486,Soybean,114,22.15,55.0,9.33,Warehouse,None,Good,41.463,41.03,1.0457,synthetic_demo
+S0487,Rice,99,23.61,68.42,16.13,Ordinary bag,Low,Poor,41.895,40.549,3.2135,synthetic_demo
+S0488,Wheat,89,34.9,54.32,11.96,Hermetic bag,Low,Good,29.518,29.178,1.1528,synthetic_demo
+S0489,Groundnuts,81,20.01,78.34,11.46,Ordinary bag,None,Poor,30.203,29.41,2.6237,synthetic_demo
+S0490,Groundnuts,151,18.19,80.5,13.31,Metal silo,Low,Moderate,6.621,6.396,3.3939,synthetic_demo
+S0491,Wheat,52,22.88,67.46,12.98,Metal silo,None,Good,13.355,13.344,0.0795,synthetic_demo
+S0492,Rice,112,19.09,79.09,10.1,Warehouse,Medium,Good,18.29,17.798,2.6894,synthetic_demo
+S0493,Maize,173,36.72,70.75,8.69,Hermetic bag,High,Moderate,47.611,45.209,5.0448,synthetic_demo
+S0494,Wheat,75,22.26,41.49,14.95,Metal silo,None,Good,9.066,8.996,0.7741,synthetic_demo
+S0495,Rice,82,18.3,82.69,9.45,Metal silo,None,Moderate,8.436,8.292,1.7075,synthetic_demo
+S0496,Soybean,16,18.21,59.67,14.52,Ordinary bag,Low,Good,31.156,30.909,0.7926,synthetic_demo
+S0497,Wheat,71,16.65,46.01,12.67,Hermetic bag,High,Poor,49.083,47.75,2.7149,synthetic_demo
+S0498,Groundnuts,21,22.44,46.89,8.14,Warehouse,Low,Good,20.285,20.222,0.3098,synthetic_demo
+S0499,Pulses,131,23.21,77.59,10.41,Ordinary bag,None,Moderate,27.289,26.678,2.2388,synthetic_demo
+S0500,Maize,35,29.08,48.19,9.72,Hermetic bag,None,Poor,30.432,30.03,1.3183,synthetic_demo
+S0501,Pulses,50,25.41,39.39,15.21,Metal silo,None,Good,19.17,18.988,0.9463,synthetic_demo
+S0502,Groundnuts,145,36.78,67.6,14.63,Warehouse,High,Moderate,27.989,26.403,5.6691,synthetic_demo
+S0503,Groundnuts,118,27.56,41.2,11.93,Warehouse,Medium,Good,22.048,21.34,3.2108,synthetic_demo
+S0504,Soybean,83,32.33,41.76,17.25,Metal silo,None,Moderate,15.867,15.546,2.0254,synthetic_demo
+S0505,Wheat,131,36.84,68.45,13.47,Ordinary bag,Medium,Moderate,43.235,41.439,4.1537,synthetic_demo
+S0506,Rice,172,24.09,75.0,17.67,Warehouse,None,Poor,31.376,30.392,3.1374,synthetic_demo
+S0507,Wheat,144,21.47,69.76,17.1,Metal silo,Low,Good,34.12,33.277,2.4704,synthetic_demo
+S0508,Soybean,37,15.67,55.33,14.49,Ordinary bag,None,Moderate,25.281,25.018,1.0429,synthetic_demo
+S0509,Maize,54,31.77,50.48,13.4,Metal silo,Low,Poor,32.766,31.95,2.4908,synthetic_demo
+S0510,Groundnuts,37,17.32,73.24,16.36,Ordinary bag,None,Good,19.544,19.178,1.8762,synthetic_demo
+S0511,Wheat,115,30.8,80.26,10.95,Warehouse,Low,Moderate,18.763,18.252,2.7223,synthetic_demo
+S0512,Groundnuts,23,31.38,71.39,17.15,Ordinary bag,None,Moderate,42.248,41.268,2.3206,synthetic_demo
+S0513,Pulses,94,32.66,48.39,13.9,Ordinary bag,None,Poor,26.76,26.086,2.5167,synthetic_demo
+S0514,Pulses,145,35.4,54.26,17.97,Warehouse,Low,Good,26.567,25.796,2.9046,synthetic_demo
+S0515,Pulses,165,31.82,66.34,12.27,Hermetic bag,Low,Moderate,5.917,5.777,2.3556,synthetic_demo
+S0516,Wheat,155,31.31,74.79,11.9,Hermetic bag,None,Moderate,22.235,21.729,2.2774,synthetic_demo
+S0517,Maize,51,15.72,69.52,12.35,Hermetic bag,None,Moderate,29.202,28.847,1.2171,synthetic_demo
+S0518,Maize,89,28.36,35.32,17.08,Hermetic bag,Low,Good,14.332,14.059,1.9016,synthetic_demo
+S0519,Pulses,55,34.78,54.82,14.39,Hermetic bag,None,Good,23.187,23.028,0.6843,synthetic_demo
+S0520,Pulses,86,37.13,70.34,17.96,Ordinary bag,Medium,Good,30.0,28.714,4.2869,synthetic_demo
+S0521,Pulses,178,30.04,79.94,15.26,Metal silo,Low,Good,26.794,26.061,2.7364,synthetic_demo
+S0522,Soybean,147,17.4,41.7,8.7,Metal silo,None,Moderate,37.566,36.938,1.6711,synthetic_demo
+S0523,Pulses,152,21.44,60.96,9.17,Hermetic bag,None,Poor,9.606,9.462,1.4995,synthetic_demo
+S0524,Wheat,147,17.43,65.72,15.46,Metal silo,None,Poor,7.773,7.61,2.0984,synthetic_demo
+S0525,Groundnuts,42,31.08,52.83,12.49,Ordinary bag,Low,Good,13.349,13.147,1.5068,synthetic_demo
+S0526,Maize,19,37.45,69.23,9.82,Ordinary bag,None,Good,11.877,11.684,1.6213,synthetic_demo
+S0527,Pulses,158,28.87,43.82,13.57,Ordinary bag,High,Good,6.474,6.167,4.7481,synthetic_demo
+S0528,Maize,141,16.54,43.59,11.84,Metal silo,Low,Poor,34.489,33.688,2.3213,synthetic_demo
+S0529,Soybean,151,25.95,60.44,15.18,Ordinary bag,Medium,Good,5.935,5.685,4.2184,synthetic_demo
+S0530,Pulses,146,22.83,42.49,9.87,Ordinary bag,Medium,Moderate,8.179,7.917,3.2087,synthetic_demo
+S0531,Pulses,87,36.99,48.95,17.59,Warehouse,None,Poor,41.763,40.645,2.6755,synthetic_demo
+S0532,Groundnuts,96,24.73,75.78,15.93,Hermetic bag,High,Poor,26.533,25.55,3.705,synthetic_demo
+S0533,Groundnuts,157,19.87,37.1,12.05,Metal silo,None,Poor,36.5,35.698,2.199,synthetic_demo
+S0534,Soybean,68,29.16,41.49,16.97,Metal silo,High,Good,14.738,14.151,3.9791,synthetic_demo
+S0535,Soybean,112,16.94,38.26,8.75,Metal silo,Medium,Moderate,23.133,22.821,1.3515,synthetic_demo
+S0536,Rice,109,27.26,69.4,12.72,Ordinary bag,High,Poor,20.763,19.828,4.504,synthetic_demo
+S0537,Rice,28,27.73,52.21,17.4,Hermetic bag,Low,Moderate,40.912,40.413,1.22,synthetic_demo
+S0538,Groundnuts,149,15.07,65.98,17.35,Metal silo,Medium,Poor,22.863,21.822,4.5511,synthetic_demo
+S0539,Soybean,102,29.23,37.95,10.02,Metal silo,None,Moderate,38.365,37.968,1.0345,synthetic_demo
+S0540,Rice,167,17.34,81.99,8.68,Metal silo,Medium,Moderate,8.164,7.914,3.0616,synthetic_demo
+S0541,Soybean,11,26.76,75.58,9.27,Hermetic bag,Low,Good,15.543,15.536,0.05,synthetic_demo
+S0542,Maize,172,32.62,78.86,13.2,Ordinary bag,None,Poor,8.076,7.741,4.1484,synthetic_demo
+S0543,Pulses,16,35.53,69.58,17.52,Warehouse,Low,Good,38.376,37.314,2.7684,synthetic_demo
+S0544,Groundnuts,101,30.17,83.94,15.45,Warehouse,Low,Good,31.495,30.628,2.7515,synthetic_demo
+S0545,Groundnuts,82,21.53,40.94,13.12,Hermetic bag,Low,Good,12.636,12.432,1.619,synthetic_demo
+S0546,Groundnuts,40,35.61,36.31,13.22,Metal silo,None,Good,26.222,26.209,0.05,synthetic_demo
+S0547,Pulses,166,21.97,42.71,15.2,Hermetic bag,None,Moderate,39.213,38.465,1.908,synthetic_demo
+S0548,Rice,120,23.26,56.95,9.8,Ordinary bag,None,Poor,40.024,39.189,2.0851,synthetic_demo
+S0549,Groundnuts,136,15.45,48.66,12.68,Metal silo,High,Moderate,21.902,21.172,3.3321,synthetic_demo
+S0550,Groundnuts,35,23.54,37.61,15.42,Hermetic bag,None,Good,39.885,39.676,0.5259,synthetic_demo
+S0551,Soybean,9,15.05,60.53,11.05,Warehouse,Low,Good,15.28,15.224,0.3649,synthetic_demo
+S0552,Rice,72,19.3,41.91,10.37,Ordinary bag,None,Good,45.588,45.028,1.2287,synthetic_demo
+S0553,Wheat,71,28.24,63.37,16.29,Ordinary bag,None,Good,18.58,18.216,1.9598,synthetic_demo
+S0554,Rice,61,35.19,80.6,9.1,Metal silo,Low,Moderate,27.021,26.576,1.6491,synthetic_demo
+S0555,Groundnuts,10,34.37,83.68,14.53,Metal silo,Low,Moderate,20.042,19.641,2.0045,synthetic_demo
+S0556,Groundnuts,108,16.03,76.23,12.21,Warehouse,None,Moderate,48.621,47.515,2.2752,synthetic_demo
+S0557,Soybean,33,18.81,67.93,17.92,Metal silo,High,Good,17.538,17.063,2.7053,synthetic_demo
+S0558,Wheat,14,26.4,67.73,13.36,Metal silo,Medium,Good,48.656,48.396,0.5349,synthetic_demo
+S0559,Soybean,117,33.18,47.07,16.64,Warehouse,Medium,Good,10.044,9.67,3.7238,synthetic_demo
+S0560,Groundnuts,99,27.07,77.52,17.96,Warehouse,None,Good,21.092,20.633,2.1774,synthetic_demo
+S0561,Wheat,92,34.69,73.53,8.19,Warehouse,Low,Moderate,25.718,25.107,2.3743,synthetic_demo
+S0562,Maize,76,24.47,44.39,15.56,Hermetic bag,Low,Good,28.208,27.837,1.3153,synthetic_demo
+S0563,Soybean,28,17.63,50.02,12.31,Metal silo,Medium,Good,16.037,15.792,1.5266,synthetic_demo
+S0564,Pulses,79,32.79,77.53,15.33,Hermetic bag,Medium,Moderate,35.663,34.843,2.2993,synthetic_demo
+S0565,Soybean,102,32.72,50.86,14.54,Metal silo,Low,Moderate,9.052,8.829,2.4695,synthetic_demo
+S0566,Maize,157,18.25,53.31,8.49,Hermetic bag,High,Good,27.206,26.53,2.4858,synthetic_demo
+S0567,Pulses,54,37.54,47.61,15.26,Ordinary bag,None,Good,35.747,35.04,1.9783,synthetic_demo
+S0568,Maize,124,20.76,72.31,15.7,Warehouse,None,Poor,36.668,35.102,4.2723,synthetic_demo
+S0569,Soybean,49,21.31,75.68,9.6,Warehouse,Medium,Moderate,6.672,6.537,2.023,synthetic_demo
+S0570,Soybean,107,21.98,78.82,9.63,Warehouse,Medium,Moderate,13.579,13.225,2.6036,synthetic_demo
+S0571,Soybean,20,26.25,38.77,14.78,Warehouse,Medium,Poor,49.157,47.742,2.8783,synthetic_demo
+S0572,Pulses,140,26.63,80.64,14.44,Hermetic bag,None,Poor,27.353,26.789,2.0613,synthetic_demo
+S0573,Wheat,42,19.86,83.9,12.35,Hermetic bag,None,Good,22.882,22.87,0.05,synthetic_demo
+S0574,Maize,167,37.69,67.58,15.0,Warehouse,Medium,Good,14.801,14.107,4.6873,synthetic_demo
+S0575,Wheat,176,34.88,50.18,14.75,Warehouse,None,Moderate,17.905,17.379,2.9385,synthetic_demo
+S0576,Maize,102,25.27,60.61,10.15,Warehouse,Low,Poor,45.482,44.569,2.0079,synthetic_demo
+S0577,Pulses,115,34.54,51.55,9.95,Hermetic bag,None,Good,25.124,25.015,0.4355,synthetic_demo
+S0578,Pulses,54,29.92,37.65,11.4,Hermetic bag,None,Poor,14.942,14.892,0.3351,synthetic_demo
+S0579,Wheat,7,25.9,36.95,10.73,Warehouse,High,Poor,14.678,14.27,2.7797,synthetic_demo
+S0580,Soybean,87,34.42,75.13,9.26,Warehouse,Low,Good,44.154,43.13,2.3187,synthetic_demo
+S0581,Wheat,25,28.21,42.78,14.86,Metal silo,Low,Poor,8.739,8.593,1.6638,synthetic_demo
+S0582,Wheat,78,33.65,52.02,16.75,Warehouse,None,Good,18.792,18.416,1.9979,synthetic_demo
+S0583,Soybean,55,30.18,42.11,9.11,Ordinary bag,None,Good,44.359,43.955,0.9109,synthetic_demo
+S0584,Soybean,15,32.48,71.86,17.97,Ordinary bag,None,Moderate,25.389,24.647,2.9201,synthetic_demo
+S0585,Groundnuts,133,25.85,47.23,15.27,Metal silo,Low,Poor,35.086,34.07,2.898,synthetic_demo
+S0586,Rice,90,27.07,73.79,17.78,Metal silo,None,Moderate,21.812,21.359,2.0739,synthetic_demo
+S0587,Soybean,58,16.99,56.39,9.67,Hermetic bag,Medium,Moderate,16.067,15.803,1.64,synthetic_demo
+S0588,Maize,163,28.04,44.69,11.45,Ordinary bag,Low,Moderate,11.688,11.284,3.4596,synthetic_demo
+S0589,Rice,101,21.15,65.62,8.7,Metal silo,Medium,Moderate,16.668,16.192,2.8574,synthetic_demo
+S0590,Groundnuts,78,22.28,80.81,11.43,Warehouse,High,Good,38.567,37.226,3.4771,synthetic_demo
+S0591,Rice,15,18.02,66.92,10.09,Hermetic bag,Medium,Good,17.867,17.703,0.9151,synthetic_demo
+S0592,Rice,13,25.19,65.86,16.69,Metal silo,None,Good,28.841,28.793,0.168,synthetic_demo
+S0593,Rice,90,36.25,62.24,12.15,Warehouse,None,Poor,46.945,45.714,2.622,synthetic_demo
+S0594,Soybean,94,36.21,60.37,12.38,Warehouse,Low,Good,30.634,29.798,2.7285,synthetic_demo
+S0595,Pulses,130,29.81,54.87,8.04,Hermetic bag,None,Moderate,8.375,8.306,0.8248,synthetic_demo
+S0596,Maize,21,21.34,67.77,11.09,Warehouse,High,Poor,31.339,30.194,3.6543,synthetic_demo
+S0597,Soybean,158,22.33,72.48,9.37,Hermetic bag,Low,Poor,5.757,5.611,2.5454,synthetic_demo
+S0598,Soybean,173,22.26,44.07,9.88,Ordinary bag,Medium,Moderate,39.11,37.878,3.1501,synthetic_demo
+S0599,Wheat,43,16.06,58.13,16.15,Metal silo,Low,Poor,31.762,31.098,2.0891,synthetic_demo
+S0600,Maize,107,26.9,69.05,13.08,Ordinary bag,Low,Poor,5.716,5.49,3.966,synthetic_demo
+S0601,Groundnuts,94,27.43,62.62,15.15,Ordinary bag,Low,Good,36.681,35.667,2.7664,synthetic_demo
+S0602,Rice,76,19.12,55.7,15.87,Metal silo,Low,Poor,18.472,18.143,1.7817,synthetic_demo
+S0603,Pulses,135,22.64,76.33,8.74,Ordinary bag,None,Good,12.02,11.785,1.9614,synthetic_demo
+S0604,Maize,80,21.32,56.45,11.95,Hermetic bag,None,Good,34.516,34.363,0.4444,synthetic_demo
+S0605,Groundnuts,141,19.64,71.57,16.06,Ordinary bag,None,Good,47.731,46.262,3.0765,synthetic_demo
+S0606,Groundnuts,116,15.53,48.94,13.05,Hermetic bag,None,Poor,39.884,39.109,1.9428,synthetic_demo
+S0607,Soybean,27,21.75,46.89,12.43,Metal silo,Low,Moderate,16.004,15.762,1.5107,synthetic_demo
+S0608,Rice,108,26.94,62.72,10.22,Warehouse,Low,Poor,21.356,20.771,2.7379,synthetic_demo
+S0609,Soybean,110,28.86,52.02,16.6,Hermetic bag,None,Poor,36.277,35.43,2.3346,synthetic_demo
+S0610,Pulses,180,20.18,49.03,12.42,Warehouse,Low,Good,26.641,26.177,1.742,synthetic_demo
+S0611,Soybean,95,35.44,74.62,12.99,Warehouse,None,Good,44.527,43.809,1.6128,synthetic_demo
+S0612,Soybean,106,35.23,41.08,14.82,Ordinary bag,None,Good,25.952,25.318,2.4438,synthetic_demo
+S0613,Soybean,170,22.45,75.75,15.49,Hermetic bag,High,Poor,23.357,22.291,4.5629,synthetic_demo
+S0614,Groundnuts,54,35.23,58.72,11.41,Metal silo,Low,Good,37.25,36.865,1.0334,synthetic_demo
+S0615,Pulses,138,29.49,74.38,10.51,Ordinary bag,None,Moderate,21.371,20.639,3.4256,synthetic_demo
+S0616,Soybean,116,19.32,77.92,8.53,Hermetic bag,High,Moderate,28.918,27.946,3.3609,synthetic_demo
+S0617,Wheat,110,33.01,67.78,14.91,Warehouse,Medium,Good,15.706,15.288,2.6581,synthetic_demo
+S0618,Pulses,46,20.44,77.93,10.43,Hermetic bag,Medium,Moderate,12.144,11.965,1.4715,synthetic_demo
+S0619,Wheat,91,20.61,46.78,8.09,Hermetic bag,None,Moderate,6.402,6.398,0.0702,synthetic_demo
+S0620,Pulses,116,16.63,50.85,16.73,Metal silo,Low,Moderate,25.93,25.566,1.4017,synthetic_demo
+S0621,Groundnuts,148,36.02,80.53,10.24,Warehouse,None,Good,18.824,18.377,2.375,synthetic_demo
+S0622,Pulses,117,19.36,80.97,9.03,Ordinary bag,Medium,Good,36.67,35.848,2.2397,synthetic_demo
+S0623,Pulses,110,20.14,43.42,12.71,Metal silo,Low,Moderate,14.817,14.632,1.248,synthetic_demo
+S0624,Rice,140,18.83,37.19,12.4,Warehouse,Low,Poor,36.585,35.61,2.6653,synthetic_demo
+S0625,Rice,47,27.23,45.22,15.26,Metal silo,None,Good,27.795,27.518,0.995,synthetic_demo
+S0626,Maize,111,25.06,80.97,16.4,Warehouse,Low,Poor,33.575,31.991,4.7178,synthetic_demo
+S0627,Groundnuts,82,22.41,64.6,8.26,Hermetic bag,Medium,Good,7.089,6.981,1.5311,synthetic_demo
+S0628,Rice,114,19.56,79.79,9.9,Warehouse,Medium,Poor,15.833,15.324,3.2144,synthetic_demo
+S0629,Rice,62,24.15,47.29,17.99,Warehouse,Medium,Good,12.16,11.777,3.1537,synthetic_demo
+S0630,Groundnuts,46,24.7,62.93,9.2,Warehouse,None,Poor,29.717,29.182,1.802,synthetic_demo
+S0631,Soybean,111,16.28,43.43,9.61,Metal silo,None,Good,46.486,46.179,0.6623,synthetic_demo
+S0632,Soybean,115,23.22,48.81,13.03,Ordinary bag,None,Good,25.374,24.921,1.7863,synthetic_demo
+S0633,Pulses,178,20.14,59.4,9.5,Hermetic bag,Medium,Moderate,12.851,12.581,2.1006,synthetic_demo
+S0634,Maize,79,16.19,81.65,12.14,Warehouse,Low,Poor,47.181,45.89,2.7364,synthetic_demo
+S0635,Groundnuts,78,32.45,52.18,11.64,Hermetic bag,Low,Poor,36.022,35.316,1.9599,synthetic_demo
+S0636,Pulses,151,34.82,63.16,10.95,Warehouse,Low,Good,42.146,41.324,1.9496,synthetic_demo
+S0637,Soybean,35,21.63,60.5,16.37,Ordinary bag,Low,Good,38.902,38.288,1.5762,synthetic_demo
+S0638,Wheat,27,36.31,65.07,15.67,Metal silo,Low,Good,33.018,32.6,1.2668,synthetic_demo
+S0639,Wheat,82,27.75,62.63,8.42,Warehouse,None,Moderate,46.251,45.745,1.0936,synthetic_demo
+S0640,Rice,59,19.03,45.98,12.78,Ordinary bag,Low,Poor,7.493,7.339,2.0472,synthetic_demo
+S0641,Soybean,46,34.38,66.07,13.63,Warehouse,High,Good,19.903,19.313,2.9639,synthetic_demo
+S0642,Wheat,162,26.12,79.71,10.77,Hermetic bag,None,Moderate,26.327,25.783,2.0648,synthetic_demo
+S0643,Wheat,17,15.09,51.24,13.9,Ordinary bag,None,Moderate,49.604,49.348,0.5153,synthetic_demo
+S0644,Pulses,28,24.55,67.44,15.33,Warehouse,Medium,Moderate,10.587,10.377,1.9849,synthetic_demo
+S0645,Pulses,131,29.39,76.86,8.47,Warehouse,None,Good,13.645,13.37,2.0192,synthetic_demo
+S0646,Wheat,94,27.15,67.89,11.85,Warehouse,Low,Good,7.443,7.345,1.3157,synthetic_demo
+S0647,Rice,10,27.2,79.75,13.72,Warehouse,Low,Moderate,10.508,10.338,1.6256,synthetic_demo
+S0648,Wheat,160,37.41,57.15,11.45,Warehouse,Low,Poor,16.579,15.955,3.7616,synthetic_demo
+S0649,Soybean,36,25.56,43.51,8.2,Metal silo,High,Good,8.283,8.161,1.4804,synthetic_demo
+S0650,Soybean,85,20.64,83.13,17.11,Ordinary bag,Low,Moderate,21.88,21.142,3.3735,synthetic_demo
+S0651,Maize,57,17.82,40.12,13.61,Metal silo,None,Good,26.623,26.319,1.1408,synthetic_demo
+S0652,Soybean,30,15.1,44.65,10.36,Metal silo,High,Poor,23.267,22.711,2.391,synthetic_demo
+S0653,Groundnuts,130,29.42,44.21,9.08,Warehouse,Low,Moderate,11.242,10.994,2.2066,synthetic_demo
+S0654,Wheat,60,21.01,58.04,14.53,Hermetic bag,None,Moderate,9.632,9.56,0.7499,synthetic_demo
+S0655,Wheat,90,16.43,47.91,16.04,Ordinary bag,Medium,Poor,32.094,31.084,3.1482,synthetic_demo
+S0656,Groundnuts,81,19.46,67.54,13.85,Ordinary bag,Medium,Good,21.581,21.032,2.5442,synthetic_demo
+S0657,Groundnuts,64,35.01,80.85,12.9,Ordinary bag,Medium,Poor,42.135,40.124,4.7725,synthetic_demo
+S0658,Maize,73,32.4,63.87,15.2,Warehouse,Medium,Good,48.092,46.712,2.869,synthetic_demo
+S0659,Soybean,178,23.7,44.99,9.12,Hermetic bag,Low,Poor,18.821,18.523,1.5831,synthetic_demo
+S0660,Groundnuts,64,25.31,78.13,14.68,Metal silo,Low,Poor,49.613,47.96,3.3323,synthetic_demo
+S0661,Rice,52,17.13,62.7,14.13,Metal silo,None,Poor,5.552,5.478,1.3293,synthetic_demo
+S0662,Wheat,180,21.77,44.2,10.82,Ordinary bag,None,Moderate,20.613,20.136,2.3163,synthetic_demo
+S0663,Groundnuts,67,24.11,37.0,17.18,Hermetic bag,None,Moderate,8.892,8.776,1.3064,synthetic_demo
+S0664,Soybean,157,15.95,42.26,9.46,Metal silo,High,Moderate,24.7,24.058,2.5965,synthetic_demo
+S0665,Pulses,140,32.08,47.34,9.61,Ordinary bag,Medium,Moderate,36.278,35.138,3.1428,synthetic_demo
+S0666,Rice,151,21.37,51.98,8.42,Warehouse,Low,Poor,18.416,17.85,3.0688,synthetic_demo
+S0667,Groundnuts,132,32.22,68.31,10.04,Ordinary bag,Medium,Poor,34.599,33.096,4.3437,synthetic_demo
+S0668,Groundnuts,164,36.35,64.78,12.17,Warehouse,Medium,Moderate,34.007,32.749,3.7012,synthetic_demo
+S0669,Soybean,31,35.7,79.22,17.52,Hermetic bag,Medium,Moderate,42.27,40.893,3.258,synthetic_demo
+S0670,Pulses,32,37.93,36.51,13.97,Hermetic bag,Low,Moderate,16.503,16.188,1.9128,synthetic_demo
+S0671,Wheat,44,34.07,45.96,14.97,Metal silo,None,Poor,15.709,15.438,1.7295,synthetic_demo
+S0672,Pulses,21,19.39,57.78,17.3,Hermetic bag,Low,Moderate,49.027,48.98,0.0948,synthetic_demo
+S0673,Wheat,82,24.47,50.61,11.26,Ordinary bag,None,Poor,35.682,35.287,1.1066,synthetic_demo
+S0674,Pulses,73,18.37,62.64,15.29,Warehouse,None,Moderate,15.193,14.876,2.0842,synthetic_demo
+S0675,Soybean,53,32.82,51.56,9.89,Warehouse,Low,Poor,6.407,6.285,1.9099,synthetic_demo
+S0676,Maize,32,23.13,54.24,12.89,Metal silo,None,Poor,46.961,46.311,1.385,synthetic_demo
+S0677,Soybean,172,33.8,81.39,14.01,Hermetic bag,Low,Moderate,34.611,33.564,3.0265,synthetic_demo
+S0678,Maize,134,17.11,76.5,10.04,Hermetic bag,None,Poor,10.812,10.537,2.5475,synthetic_demo
+S0679,Wheat,149,31.99,83.03,10.71,Hermetic bag,Low,Poor,29.183,28.494,2.3611,synthetic_demo
+S0680,Wheat,8,28.21,72.38,9.75,Metal silo,Low,Poor,13.021,12.844,1.3599,synthetic_demo
+S0681,Maize,40,16.46,69.27,9.11,Hermetic bag,Medium,Good,7.484,7.36,1.652,synthetic_demo
+S0682,Wheat,145,18.25,60.92,8.97,Ordinary bag,None,Moderate,47.502,46.253,2.6288,synthetic_demo
+S0683,Soybean,125,17.95,45.48,12.51,Warehouse,High,Moderate,6.167,5.942,3.6491,synthetic_demo
+S0684,Maize,67,23.42,79.19,17.13,Metal silo,None,Poor,23.545,22.76,3.3324,synthetic_demo
+S0685,Pulses,61,30.25,46.86,11.23,Ordinary bag,None,Poor,48.395,47.26,2.3446,synthetic_demo
+S0686,Rice,11,20.86,43.56,13.07,Warehouse,Low,Good,44.37,43.789,1.3112,synthetic_demo
+S0687,Wheat,36,24.2,74.3,13.91,Ordinary bag,Low,Good,26.064,25.473,2.2677,synthetic_demo
+S0688,Maize,26,37.57,43.8,9.93,Ordinary bag,Low,Good,24.965,24.665,1.2005,synthetic_demo
+S0689,Maize,124,21.48,80.76,11.06,Hermetic bag,High,Good,41.475,40.525,2.2908,synthetic_demo
+S0690,Maize,153,26.93,52.34,16.4,Ordinary bag,None,Poor,32.301,31.298,3.1037,synthetic_demo
+S0691,Groundnuts,7,37.12,62.48,13.98,Ordinary bag,Low,Moderate,18.052,17.522,2.9348,synthetic_demo
+S0692,Groundnuts,115,30.43,57.74,10.88,Metal silo,Low,Good,12.924,12.727,1.5238,synthetic_demo
+S0693,Rice,159,21.96,51.64,14.7,Ordinary bag,High,Good,21.373,20.642,3.4213,synthetic_demo
+S0694,Rice,37,36.45,47.36,14.62,Metal silo,None,Good,44.566,44.071,1.1109,synthetic_demo
+S0695,Groundnuts,10,26.53,78.14,11.26,Hermetic bag,High,Good,35.453,35.011,1.2485,synthetic_demo
+S0696,Groundnuts,137,31.06,54.23,11.24,Metal silo,Medium,Poor,47.776,46.38,2.9222,synthetic_demo
+S0697,Wheat,58,26.26,65.69,12.27,Warehouse,Low,Poor,5.425,5.333,1.6896,synthetic_demo
+S0698,Rice,117,36.05,55.69,13.74,Warehouse,Low,Moderate,8.029,7.809,2.7392,synthetic_demo
+S0699,Maize,165,27.61,62.83,8.58,Ordinary bag,Low,Moderate,36.907,35.547,3.6856,synthetic_demo
+S0700,Maize,130,21.6,67.59,14.27,Metal silo,Low,Good,42.603,41.372,2.8908,synthetic_demo
+S0701,Soybean,18,25.19,50.59,14.42,Hermetic bag,None,Moderate,32.346,32.093,0.7826,synthetic_demo
+S0702,Pulses,140,16.36,50.18,12.21,Warehouse,Low,Good,8.201,8.085,1.4075,synthetic_demo
+S0703,Maize,123,21.04,70.57,8.48,Hermetic bag,Low,Moderate,40.864,40.067,1.9493,synthetic_demo
+S0704,Wheat,72,29.32,46.38,13.8,Metal silo,Low,Good,13.223,13.072,1.1375,synthetic_demo
+S0705,Wheat,84,28.59,53.02,10.89,Metal silo,High,Good,40.976,40.079,2.1891,synthetic_demo
+S0706,Groundnuts,136,24.63,35.77,13.28,Hermetic bag,None,Good,36.322,35.903,1.154,synthetic_demo
+S0707,Pulses,162,30.11,76.61,14.15,Warehouse,Low,Poor,29.711,28.544,3.9281,synthetic_demo
+S0708,Pulses,164,18.79,63.9,15.54,Ordinary bag,Medium,Moderate,21.786,20.913,4.0073,synthetic_demo
+S0709,Groundnuts,108,24.67,35.76,8.7,Warehouse,Medium,Good,45.142,44.048,2.4237,synthetic_demo
+S0710,Wheat,25,27.29,77.78,15.49,Hermetic bag,None,Good,45.531,45.508,0.05,synthetic_demo
+S0711,Pulses,16,33.94,39.86,8.63,Metal silo,Low,Poor,23.655,23.377,1.1732,synthetic_demo
+S0712,Maize,153,16.33,65.8,15.72,Metal silo,High,Moderate,35.872,34.207,4.6423,synthetic_demo
+S0713,Maize,41,34.0,84.84,8.98,Metal silo,Medium,Good,7.896,7.692,2.5862,synthetic_demo
+S0714,Groundnuts,161,33.41,79.08,14.51,Metal silo,High,Good,18.443,17.607,4.532,synthetic_demo
+S0715,Pulses,161,30.66,79.78,9.56,Ordinary bag,Low,Poor,35.062,33.668,3.9747,synthetic_demo
+S0716,Rice,73,31.55,67.02,15.88,Ordinary bag,Low,Poor,8.044,7.795,3.0907,synthetic_demo
+S0717,Soybean,172,37.28,83.37,8.37,Metal silo,Medium,Moderate,38.88,37.31,4.0368,synthetic_demo
+S0718,Rice,113,18.29,59.66,10.4,Hermetic bag,None,Good,45.99,45.967,0.05,synthetic_demo
+S0719,Groundnuts,78,23.24,65.82,11.52,Metal silo,Medium,Poor,44.413,43.735,1.5255,synthetic_demo
+S0720,Soybean,98,20.14,36.88,15.08,Warehouse,Medium,Moderate,8.943,8.619,3.6243,synthetic_demo
